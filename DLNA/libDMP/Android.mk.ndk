@@ -1,0 +1,37 @@
+LOCAL_PATH := $(my-dir)
+include $(CLEAR_VARS)
+
+ANDROID_TOP := ../../../../..
+SRCTREE_TOP := $(ANDROID_TOP)/../../..
+LOCAL_C_INCLUDES += \
+    $(LOCAL_PATH)/include \
+	$(LOCAL_PATH)/$(SRCTREE_TOP)/system/src/Include
+
+LOCAL_SRC_FILES := \
+    OnLoad.cpp  \
+    $(SRCTREE_TOP)/system/src/Application/AppClass/Class/UPnP/DLNA_DMP_1p5.cpp \
+    $(SRCTREE_TOP)/system/src/Application/AppClass/Class/UPnP/RTK_MmsCp_1p5.c \
+    DLNA_DMP_1p5_jni.cpp
+    
+
+
+LOCAL_CFLAGS := \
+	"-DIS_CHIP(MODEL)=0" \
+    -DIS_TV_CHIP \
+    -DMMSCP_LEAN_AND_MEAN \
+	-DANDROID_PLATFORM \
+	-DENABLE_ANDROID_NDK
+
+LOCAL_SHARED_LIBRARIES := libupnp
+LOCAL_LDLIBS := -llog
+
+LOCAL_MODULE := libDMP
+
+LOCAL_MODULE_TAGS := optional
+#LOCAL_CFLAGS += -DENABLE_ANDROID
+
+# build library
+
+include $(BUILD_SHARED_LIBRARY)
+#$(call import-add-path,$(LOCAL_PATH))
+$(call import-module,libupnp)

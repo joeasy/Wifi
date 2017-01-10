@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_vertical"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="467dp"
+            android:layout_height="333dp"
+            android:background="#25476f"
+            android:layout_centerInParent="true" >
+
+            <RelativeLayout
+                android:layout_marginTop="58dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imgIcon"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="52dp"
+                    android:background="#00000000"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dnla_music_icon_large" />
+
+                <RelativeLayout
+                    android:id="@+id/lay_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="116dp"
+                    android:layout_marginLeft="44dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@+id/imgIcon" >
+
+                    <TextView
+                        android:id="@+id/musicTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical|left"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/musicArtist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/musicTitle"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical|left"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/lay_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="53dp" >
+
+                        <TextView
+                            android:id="@+id/timeNow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/stime"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/timeTotal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:gravity="left"
+                            android:text="@string/stime"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <SeekBar
+                            android:id="@+id/playBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="14dip"
+                            android:layout_below="@id/timeNow"
+                            android:max="100"
+                            android:progress="50"
+                            android:progressDrawable="@drawable/seek_progress_bar"
+                            android:thumb="@drawable/mythumb" />
+
+                        <ImageButton
+                            android:id="@+id/btn_repeat"
+                            android:layout_width="24dip"
+                            android:layout_height="24dip"
+                            android:layout_alignParentBottom="true"
+                            android:background="#00000000"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/dnla_music_bar_icon_repeat_all" />
+
+                        <ImageView
+                            android:id="@+id/imgSta"
+                            android:layout_width="wrap_content"
+                            android:layout_height="14dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="6dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/dnla_music_bar_icon_play" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_gui"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginTop="234dp"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" >
+
+                <ImageButton
+                    android:id="@+id/gui_play"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+            		android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="#00000000"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/gui_play" />
+
+                <ImageButton
+                    android:id="@+id/gui_rw"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:layout_toLeftOf="@id/gui_play"
+                    android:background="#00000000"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/gui_rw"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/gui_last"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_toLeftOf="@id/gui_play"                    
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:background="#00000000"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/gui_last" />
+                <ImageButton
+                    android:id="@+id/gui_fw"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_toRightOf="@id/gui_play"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="14dp"
+                    android:background="#00000000"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"
+                    android:src="@drawable/gui_fw" />
+
+                <ImageButton
+                    android:id="@+id/gui_next"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+            		android:layout_toRightOf="@id/gui_play"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13dp"
+                    android:background="#00000000"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/gui_next" />
+            </RelativeLayout>            
+            <ProgressBar
+                android:id="@+id/loading"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:max="100"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:minHeight="60dp"
+                android:minWidth="60dp" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="27dp"
+            android:singleLine="true"
+            android:text="@string/mediaplayer"
+            style="@style/MediaPlayer.Title" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_toRightOf="@+id/imageView1"
+        	android:layout_alignTop="@+id/imageView1"
+        	android:layout_marginLeft="15dp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:singleLine="true"
+        	style="@style/MediaPlayer.Title" 
+            android:text="@string/title_music" />
+    <ImageView
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/dlna_media_menu_icon" />
+    </RelativeLayout>
+
+</LinearLayout>

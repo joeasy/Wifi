@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/videoMenuBackground"
+    >
+	<ListView
+        android:id="@+id/quick_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:listSelector="@drawable/tsb_menu_foucos"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:divider="#FF98B0D0"
+		android:dividerHeight="@dimen/video_menu_dividerHeight_landscape"
+		android:headerDividersEnabled="true"
+        >
+    </ListView>
+</RelativeLayout>

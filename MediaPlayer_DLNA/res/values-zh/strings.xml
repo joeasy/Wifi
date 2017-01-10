@@ -1,0 +1,232 @@
+<resources>
+
+    <string name="app_name">Home Network Player</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_media_browser">RTKDMP</string>
+    <string name="title_activity_audio_browser">AudioBrowser</string>
+    
+    <string name="video">video</string>
+    <string name="audio">audio</string>
+    <string name="photo">photo</string>
+    
+    <string name="hasplayed">00:00:00</string>
+    <string name="duration">00:00:00</string>
+    
+    <string name="title_music">"音乐"</string>
+    <string name="title_photo">照片</string>
+    <string name="title_movie">"视频"</string>
+    <string name="title_setup">"设定"</string>
+    
+    <string name="subtitle1">Subtitle&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="subtitle">"字幕："</string>
+    <string name="text_color">Text Color&#160;&#160;&#160;&#160;&#160;&lt;
+    	&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_size">Text Size&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_encoding">Encoding&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+        
+    <string name="subtitle_v">Off</string>
+    <string name="text_size_v">None</string>
+    <string name="text_color_v">None</string>
+    <string name="text_encoding_v">None</string>
+    <string name="album">Album</string>
+    <string name="year">Year</string>
+    <string name="artist">"艺术家"</string>
+    <string name="stime">00:00:00</string>
+    <string name="endtime">00:00:00</string>
+    <string name="media_browser">MEDIA BROWSER</string>
+
+    <!-- photo single view banner -->
+    <string name="device_removed_toast">Device has been removed.</string>
+    <string name="banner_slideshow">幻灯显示</string>
+    <string name="banner_bg_music">"音乐"</string>
+    <string name="banner_repeat">重复</string>
+    <string name="banner_zoomin">ZoomIn</string>
+    <string name="banner_zoomout">ZoomOut</string>
+    <string name="banner_leftrotate">Left Rotate</string>
+    <string name="banner_rightrotate">Right Rotate</string>
+    <string name="banner_returnto_multi">Multi View</string>
+    <string name="txtIntervalTime">间隔时间</string>
+    <string name="QuickMenu">快捷菜单</string>
+    <string name="quick_menu_photo_intervalTime">间隔时间</string>
+    <string name="quick_menu_repeat">重复</string>
+    <string name="quick_menu_picture_mode">图像</string>
+    <string name="timeUnit">sec</string>
+    <string name="title_exif">标题： </string>
+    <string name="date_exif">日期： </string>
+    <string name="size_exif">大小: </string>
+    <string name="device_exif">设备: </string>
+    <string name="folder_exif">文件夹: </string>
+    <string name="decode_fail">Decode Failed.</string>
+    <string name="year_menuicon">年</string>
+	 <string name="day_menuicon">日</string>
+    
+    
+    
+    
+
+ <!-- QUICKMENU -->
+	 <string name="qm_interval_fast">快</string>
+	 <string name="qm_interval_normal">正常</string>
+	 <string name="qm_interval_slow">慢</string>
+	 <string name="qm_repeat_on">开</string>
+	 <string name="qm_repeat_off">关</string>
+
+	<string name="toast_not_available">操作无效</string>
+    <string name="txtSound">"声音"</string>
+    <string name="txtRepeat">重复</string>
+    <string name="txtSleep">睡眠定时器</string>
+    <string name="txtDevice">"设备信息"</string>
+    <string name="title">"标题"</string>
+    <string name="date">"日期"</string>
+    <string name="totaltime">"总时间"</string>
+    <string name="usb">USB</string>
+    <string name="gapline">/</string>
+    <string name="blanktime">--:--:--</string>
+    <string name="quickmenu">快捷菜单</string>
+    <string name="quick_menu_tvapp">电视机应用程序</string>
+    <string name="quick_menu_sysset">系统设定</string>
+    <string name="device_removed">Device has been removed.</string>
+    <string name="quick_menu_sleep">睡眠定时器</string>
+	<string name="tv_application">电视机应用程序</string>
+	<string name="sys_setting">系统设定</string>
+	<string name="quick_menu_picture">图像</string>
+	<string name="quick_menu_sound">"声音"</string>
+	<string name="digital_100">100</string>
+	<string name="digital_1k">1k</string>
+	<string name="digital_10k">10k</string>
+	<string name="spectrum_unit">"频率(Hz)"</string>
+	
+	 <!-- Confirm message -->
+	 <string name="msg_resumePlay">"恢复播放？"</string>
+	 <string name="resumePlay_hint">"当前可以重新播放此文件。但是，如果再次按下停止键，重新开始点将会丢失。"</string>
+	 <string name="msg_yes">"是"</string>
+	 <string name="msg_no">"否"</string>
+	 <string name="msg_noFile">"无适用媒体文件。"</string>
+	 <string name="msg_drm_request_rental1">"此DivX®可观赏"</string>
+	 <string name="msg_drm_request_rental2">"次，已观赏"</string>
+	 <string name="msg_drm_request_rental3">"次。继续吗？"</string>
+	 <string name="msg_drm_not_auth_user">"您的设备未授权播放此DivX受保护视频。"</string>
+	 <string name="msg_drm_rental_expired2">"次。此DivX®的租借期限已到。"</string>
+	 <string name="msg_resume_remove_hint">Resume point has been removed!</string>
+	 <string name="msg_no_resume_point_hint">No resume point could be removed!</string>
+	 <string name="msg_exit">请再次按返回键退出应用程序。</string>
+	 <string name="title_jump">"您要跳转到另一个标题吗？"</string>
+	 <string name="file_jump">Would you like to jump to another file?</string>
+	 <string name="msg_hint">Hint</string>
+	 <string name="msg_divx">Divx</string>
+	 <string name="msg_seek_forward_forbidden">This file can not be seek forward!</string>
+	 <string name="msg_seek_rewind_forbidden">This file can not be seek rewind!</string>
+	 <string name="msg_seek_pause_forbidden">This file can not be paused!</string>
+	 <string name="msg_seek_forbidden">This file can not be seek!</string>
+	 <string name="msg_unsupport">Unsupported file.</string>
+	 <string name="msg_unauthorised_divx_drm_version">"未授权的DivX® DRM版本"</string>
+	 
+	 <string name="usb_remove">Please insert external disk!</string>
+	 <string name="more_than_chapter_num">Please input number that is less than chapter total number! Chapter Number</string>
+	 <string name="less_than_chapter_num">Please input number that is more than 0! Chapter Number</string>
+	 <string name="input_inlegal">is illegal</string>
+	 
+	 <string name="msg_donot_switch_title">Please do not switch title, when playback is rewinding or forwarding.</string>
+	 <string name="msg_donot_switch_chapter">Please do not switch chapter, when playback is rewinding or forwarding.</string>
+	 
+	 <string name="raw">RAW</string>
+	 <string name="LPCM">LPCM</string>
+
+	 <string name="FatalErrorCode_Audio_Unknow_Format">"非支持音频格式"</string>
+	 <string name="FatalErrorCode_Video_Frame_Rate">"非支持视频帧速率"</string>
+	 <string name="FatalErrorCode_Video_Resolution">"非支持视频分辨率"</string>
+	 <string name="Video_Play_Error">Video Player Exception, Error Code:</string>
+	 <string name="Media_Server_Die">MediaServer died, finish this activity and go to Media Selection</string>
+	 <string name="unsupport_file">This file is invalid</string>
+	 <string name="novalidfile">No valid File,Quit Music Player!</string>
+	 
+	 <!-- Guide Line -->
+	 <string name="guide_ok">OK</string>
+	 <string name="guide_enter">"确定"</string>
+	 <string name="guide_quick">QUICK</string>
+	 <string name="guide_features">"功能"</string>
+	 <string name="guide_p">P</string>
+	 <string name="guide_page">"翻页"</string>
+	 <string name="guide_play">"播放"</string>
+	 <string name="guide_pre_next">前一张/下一张</string>
+	 <string name="guide_select">"选择"</string>
+	 <string name="guide_arrows">"←→"</string>
+
+
+	 <string name="guide_rotate">旋转</string>
+	 <string name="guide_zoom">缩放</string>
+	 <string name="guide_move">移动</string>
+	 <string name="guide_back">BACK</string>
+	 <string name="guide_return">返回</string>
+	 <string name="guide_zoom_out">缩小</string>
+	 <string name="guide_zoom_in">放大</string>
+	 <string name="guide_slide_show">幻灯显示</string>
+	 <string name="guide_single_view">单张显示</string>
+
+
+	 <string name="guide_num0">0</string>
+	 <string name="guide_num9">9</string>
+	 <string name="guide_num">-</string>
+	 <string name="guide_chapterjump">"章节跳转"</string>
+	 <string name="guide_titlechange">"更改标题"</string>
+	 
+	 <!-- Picture Size -->
+	 <string name="picture_normal">"正常"</string>
+	 <string name="picture_native">"原始"</string>
+	 <string name="picture_wide">"宽屏幕"</string>
+	 <string name="picture_4_3">4:3</string>
+	 <string name="picture_pc_wide">"PC 宽屏"</string>
+	 <string name="picture_pc_normal">"PC 标准"</string>
+	 <string name="picture_super_live">"超级全屏幕"</string>
+	 <string name="picture_cinema">"电影院"</string>
+	 <string name="picture_subtitle">"字幕"</string>
+	 <string name="picture_14_9">14:9</string>
+	 <string name="picture_dot_by_dot">"点阵模式"</string>
+	 <string name="picture_zoom">"缩放"</string>
+	 
+	 
+	 
+	 <!-- divx setup -->
+	 <string name="divx_setup">"设定"</string>
+	 <string name="divx_item_register">DivX® VOD 登记</string>
+	 <string name="divx_item_deregister">DivX® VOD撤销注册</string>
+	 <string name="divx_title">DivX® VOD</string>
+	 
+	 <string name="divx_register_clue0">您必须注册设备才能播放</string>
+	 <string name="divx_register_clue1">注册码：</string>
+	 <string name="divx_register_clue2">上注册</string>
+	 <string name="divx_register_clue3">DivX受保护视频。</string>
+	 <string name="divx_register_clue4">http://vod.divx.com</string>
+	 
+	 <string name="divx_confirm_clue0">您的设备已经注册。</string>
+	 <string name="divx_confirm_clue1">您确认要撤销注册吗？</string>
+	 <string name="divx_confirm_clue2">是</string>
+	 <string name="divx_confirm_clue3">否</string>
+	 
+	 <string name="divx_deregister_clue0">撤销注册码： </string>
+	 <string name="divx_deregister_clue1">上撤销注册</string>
+	 <string name="divx_deregister_clue2">继续注册吗？</string>
+	 <string name="repeat_all">"全部"</string>
+	 
+	 <string name="maxfilenum">文件数量超出最大文件数量。无法播放某些文件。</string>
+	 
+	 <string name="note_title">提示</string>
+	 <string name="mote_ok">确认</string>
+	 <string name="note_cancel">取消</string>
+	 <string name="note_back">返回到上一级目录</string>
+</resources>

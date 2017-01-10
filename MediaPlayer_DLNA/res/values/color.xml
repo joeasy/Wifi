@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+    <resources>
+        <color name="white">#ffffff</color>
+        <color name="black">#000000</color>
+        <color name="transparent_black">#80000000</color>
+        <color name="gray">#10ffffff</color>
+        <color name="blue">#0086ff</color>
+        <color name="button_bg">#ff9966</color>
+        <color name="blank">#00000000</color>
+        <color name="musicTitle">#29abe2</color>
+        <color name="musicIdinfos">#171820</color>
+        <color name="timecolor">#cccccc</color>
+        <color name="quickMenuLine">#0f265f</color>
+        <color name="cluescolor1">#10888f</color>
+        <color name="grey">#999999</color>
+        <color name="quickMenuText">#0f265f</color>
+        <color name="divxList">#0f265f</color>
+        <color name="red">#ff0000</color>
+        <color name="ListViewDivideLine">#00000000</color>
+
+        <color name="videoPlayBarBackground">#55d3d3d3</color>
+        <color name="videoBrowserListItemBackground">#22d3d3d3</color>
+        <color name="videoBrowserListItemSelectedBackground">#55d3d3d3</color>
+        <color name="videoMenuBackground">#44000000</color>
+        <color name="transparentDialogBackground">#44000000</color>
+        
+        <color name="item_unfocus">#577980</color>
+        <color name="item_gray">#474747</color>
+    </resources>

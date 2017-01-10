@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+	<com.rtk.dmp.PictureSurfaceView
+	    android:id="@+id/picture_focused"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+
+	>
+	</com.rtk.dmp.PictureSurfaceView>
+	<RelativeLayout 
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"  
+        android:id="@+id/controlbar_photoplayer"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/guide_bar"
+	    >
+	    <RelativeLayout 
+	        android:layout_width="200dp"
+	        android:layout_height="match_parent"
+	     	android:id="@+id/bar_buttons"
+	        >
+	        <ImageView
+	            android:src="@drawable/dnla_play_icon_n"
+	            android:id="@+id/play_btn"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            />
+	        <ImageView
+	            android:layout_marginLeft="20dp"
+	            android:layout_toRightOf="@+id/play_btn"
+	            android:src="@drawable/dnla_repeat_on_icon_n"
+	            android:id="@+id/repeat_btn"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            />
+	        
+	    </RelativeLayout>
+	    <RelativeLayout 
+	        android:layout_toRightOf="@+id/bar_buttons"
+	        android:layout_marginLeft="20dp"
+	        android:layout_width="600dp"
+	        android:layout_height="match_parent"
+	        android:id="@+id/bar_gallery"
+	        
+	        >
+			<HorizontalScrollView 
+			    android:id="@+id/gallery"
+			    android:layout_alignParentBottom="true"
+			    android:layout_alignParentLeft="true"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        
+		        >
+		        <LinearLayout 
+		            android:orientation="horizontal"
+		            android:id="@+id/item_gallery"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            >
+		            
+		            
+		            <ImageView
+		                android:id="@+id/img_content"
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                >
+		            </ImageView>
+		        </LinearLayout>
+		    </HorizontalScrollView>
+	    </RelativeLayout>
+	    <RelativeLayout 
+	        android:layout_toRightOf="@+id/bar_gallery"
+	        android:layout_marginLeft="20dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:id="@+id/control_info"
+	        >
+			<ImageView
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginTop="20dp"
+	            android:src="@drawable/dnla_zoom_1_f"
+	            android:id="@+id/info_zoom"
+	            android:layout_width="150dp"
+	            android:layout_height="50dp"
+	            />
+	        <ImageView
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginTop="20dp"
+	            android:layout_toRightOf="@+id/info_zoom"
+	            android:src="@drawable/dnla_rotete_icon_n"
+	            android:id="@+id/rotate_info"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            />
+			
+	    </RelativeLayout>
+	</RelativeLayout>    
+	
+</RelativeLayout>

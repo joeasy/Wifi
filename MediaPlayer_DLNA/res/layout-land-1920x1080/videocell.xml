@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="900px"
+    android:layout_height="match_parent"
+    android:background="@color/videoBrowserListItemBackground" >
+
+    <ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20px"/>
+    <TextView
+        android:id="@+id/ItemTitle"
+        android:layout_width="540px"
+        android:layout_height="100px"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="249px"
+        android:layout_marginLeft="111px"
+        android:gravity="left|center_vertical"
+        android:textColor="@drawable/video_list_text_color" 
+        android:textSize="24px" />
+
+    <TextView
+        android:id="@+id/ItemTime"
+        android:layout_width="165px"
+        android:layout_height="100px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="75px"
+        android:gravity="left|center_vertical"
+        android:text="@string/blanktime"
+        android:textColor="@drawable/video_list_text_color"
+        android:textSize="22px" />
+
+     <ImageView
+         android:id="@+id/playImage"
+         android:layout_width="40px"
+         android:layout_height="40px"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="33px" />
+
+</RelativeLayout>

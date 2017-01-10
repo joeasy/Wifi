@@ -1,0 +1,46 @@
+LOCAL_PATH := $(my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := \
+	../../../../../../../../system/src/Application/AppClass/Class/UPnP_DLNA1.5/DLNA_DMR.cpp \
+	../../../../../../../../system/src/OSAL/Threads.cpp \
+	./com_android_server_DMRService.cpp \
+	./DMR_Android.cpp \
+	#./onload.cpp \
+
+LOCAL_C_INCLUDES += \
+	$(LOCAL_PATH)/ \
+	$(LOCAL_PATH)/../include/ \
+	$(LOCAL_PATH)/../../../../../../../../system/src/Include/Application/AppClass/ \
+	$(LOCAL_PATH)/../../../../../../../../system/open_source/HTTPC/src/ \
+	$(LOCAL_PATH)/../../../../../../../../system/src/Include/ \
+	$(LOCAL_PATH)/../../../../../../../../system/src/Include/Utility/upnp3 \
+	$(LOCAL_PATH)/../../../../../../../../system/src/Include/Filters/NavigationFilter/ \
+	$(LOCAL_PATH)/../../../../../../../../system/src/Include/StreamClass/ \
+	$(LOCAL_PATH)/../../../../../../../../common/IPC/generate/include/system/ \
+	$(LOCAL_PATH)/../../../../../../../../common/IPC/include/ \
+	$(LOCAL_PATH)/../libfileaccess/include/ \
+
+LOCAL_CFLAGS := \
+	-DMMSCP_LEAN_AND_MEAN \
+	-DUSE_NEW_NAV=YES \
+	-DINCLUDE_FEATURE_VOLUME \
+	-DINCLUDE_FEATURE_DISPLAY \
+	-DENABLE_DTCP_IP \
+	-g
+
+LOCAL_CFLAGS += "-DIS_CHIP(MODEL)=0"
+LOCAL_CFLAGS += -DIS_MAGELLAN
+LOCAL_CFLAGS += -DANDROID_PLATFORM
+LOCAL_CFLAGS += -DENABLE_ANDROID_NDK
+
+#APP_STL := gnustl_static
+
+LOCAL_LDLIBS += -llog
+
+LOCAL_SHARED_LIBRARIES := libupnp libcutils libnativehelper liblog
+LOCAL_MODULE := libDMR
+LOCAL_MODULE_TAGS := optional
+LOCAL_PRELINK_MODULE := false
+
+include $(BUILD_SHARED_LIBRARY)

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black" >
+
+        <TextView
+            android:id="@+id/QuickMenu"
+            android:layout_width="150dip"
+            android:layout_height="50dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/QuickMenu"
+            android:textColor="@color/timecolor"
+            android:textSize="16sp" />
+        
+        
+        <TextView
+            android:id="@+id/txtIntervalTime"
+            android:layout_width="150dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="60dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/txtIntervalTime"
+            android:textColor="@color/timecolor"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/txtSleepTimer"
+            android:layout_width="150dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="110dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/txtSleep"
+            android:textColor="@color/timecolor"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/txtDevice"
+            android:layout_width="150dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="160dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/txtDevice"
+            android:textColor="@color/timecolor"
+            android:textSize="16sp"
+             />
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/interval_time"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/txtIntervalTime"
+            android:layout_toRightOf="@+id/txtIntervalTime" 
+            />
+        <Button
+            android:id="@+id/menu_sleep"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@id/txtSleepTimer"
+            android:layout_toRightOf="@id/txtSleepTimer" />
+        <TextView
+            android:id="@+id/txtDeviceInfo"
+            android:layout_width="150dip"
+            android:layout_height="50dip"
+            android:layout_alignTop="@+id/txtDevice"
+            android:layout_toRightOf="@+id/txtDevice"
+            android:gravity="left|center_vertical"
+
+            android:textColor="@color/timecolor"
+            android:textSize="16sp"
+             />
+
+
+
+
+
+       
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/landscape_listItemHeight"
+    android:background="@color/videoBrowserListItemBackground" >
+
+    <ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"/>
+    <TextView
+        android:id="@+id/ItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/listItemHeight"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="150dp"
+        android:gravity="left|center_vertical"
+        android:textColor="@drawable/video_list_text_color" 
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/ItemTime"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/listItemHeight"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"
+        android:gravity="right|center_vertical"
+        android:text="@string/blanktime"
+        android:textColor="@drawable/video_list_text_color"
+        android:textSize="12sp" />
+
+     <ImageView
+         android:id="@+id/playImage"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="3dp" />
+
+</RelativeLayout>

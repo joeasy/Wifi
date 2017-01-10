@@ -1,0 +1,66 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+$(info $(shell ($(LOCAL_PATH)/svn_check.sh)))
+
+ANDROID_TOP := ../../../../..
+SRCTREE_TOP := $(ANDROID_TOP)/../../..
+LOCAL_C_INCLUDES = \
+	$(LOCAL_PATH)/$(SRCTREE_TOP)/system/src/Include \
+	$(LOCAL_PATH)/$(SRCTREE_TOP)/system/src/Include/Utility/upnp3
+
+LOCAL_SRC_FILES := \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/ILibParsers.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/ILibAsyncSocket.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/ILibAsyncUDPSocket.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/ILibAsyncServerSocket.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/ILibWebClient.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/ILibWebServer.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/ILibThreadPool.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/DMR_MicroStack.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/MediaServerCP_ControlPoint.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/ILibSSDPClient.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/CdsObjects/CdsDidlSerializer.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/CdsObjects/CdsErrors.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/CdsObjects/CdsMediaClass.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/CdsObjects/CdsObject.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/PlaylistTrackManager/BitArray.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/PlaylistTrackManager/CircularBuffer.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/MediaServerBrowser/FilteringBrowser.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/MediaServerBrowser/MediaServerControlPoint.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/MediaRenderer/DMR.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/PlaySingleUri/PlaySingleUri.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/ProtocolInfoParser/DLNAProtocolInfo.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/StringUtils/MimeTypes.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/StringUtils/UTF8Utils.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/MyString.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/PlaylistTrackManager/IndexBlocks.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/PlaylistTrackManager/PlayListManager.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/PlaylistTrackManager/PlaylistManagerPC.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/PlaylistTrackManager/PlaylistManagerS.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/MediaServerAbstraction/MediaServerAbstraction.c \
+	$(SRCTREE_TOP)/system/open_source/upnp/upnp3/MediaServer_MicroStack.c
+
+LOCAL_CFLAGS := \
+	-DRUN_ON_MAGELLAN \
+	-DINCLUDE_FEATURE_DISPLAY \
+	-DINCLUDE_FEATURE_VOLUME \
+	-D_POSIX \
+	-D_DEBUG \
+	-D_VERBOSE \
+	-D_UNIX \
+	-DMMSCP_LEAN_AND_MEAN \
+	-D_MT_CONNECTION_MANAGER \
+	-D_MT_RENDERINGCONTROL \
+	-D_MT_AVTRANSPORT \
+	-DSYS_UNIX:=1 \
+	-D_REENTRANT \
+	-g
+	
+LOCAL_MODULE_TAGS := optional
+LOCAL_CFLAGS += -DENABLE_ANDROID_NDK
+
+# build library
+LOCAL_MODULE := libupnp
+
+include $(BUILD_SHARED_LIBRARY)

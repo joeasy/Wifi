@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="146.25dp"
+    android:layout_height="165dp"
+     android:verticalSpacing="37.5dp" 
+     android:gravity="center" >
+
+    <ImageView  
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:layout_width="146.25dp"
+        android:layout_height="136.5dp" 
+        android:gravity="center" 
+        android:id="@+id/mbw_menu_grid_img"
+        android:focusable="false"
+    />  
+    
+     <TextView
+        android:id="@+id/mbw_menu_grid_text"
+        android:layout_x="0dp"
+        android:layout_y="131.25dp"
+        android:layout_width="146.25dp"
+        android:layout_height="18.75dp"
+        android:textColor="#f5f5f5"
+        android:gravity="center"
+        android:textSize="13.5dp" 
+        />
+   
+</AbsoluteLayout>

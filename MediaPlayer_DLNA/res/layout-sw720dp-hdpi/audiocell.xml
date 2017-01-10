@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="600dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/divider" >
+
+    <ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"/>
+    <TextView
+        android:id="@+id/ItemTitle"
+        android:layout_width="340dp"
+        android:layout_height="68dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="76dp"
+        android:gravity="left|center_vertical"
+        android:textColor="@drawable/list_text_color" 
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/ItemTime"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="64dp"
+        android:gravity="right|center_vertical"
+        android:text="@string/blanktime"
+        android:textColor="@drawable/list_text_color"
+        android:textSize="15sp" />
+
+     <ImageView
+         android:id="@+id/playImage"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="23dp" />
+
+</RelativeLayout>

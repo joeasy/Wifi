@@ -1,0 +1,381 @@
+<resources>
+
+    <string name="app_name">Home Network Player</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_media_browser">RTKDMP</string>
+    <string name="title_activity_audio_browser">AudioBrowser</string>
+    <string name="fileName">File Name</string>
+    <string name="video">Videos</string>
+    <string name="audio">Music</string>
+    <string name="photo">Photos</string>
+    <string name="name">Name</string>
+    
+    <string name="hasplayed">00:00:00</string>
+    <string name="duration">00:00:00</string>
+    
+    <string name="title_music">/ Music</string>
+    <string name="title_photo">/ Photos</string>
+    <string name="title_movie">/Videos</string>
+    <string name="title_setup">Setup</string>
+    
+    <string name="subtitle1">Subtitle&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="text_color">Text Color&#160;&#160;&#160;&#160;&#160;&lt;
+    	&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_size">Text Size&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_encoding">Encoding&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+        
+    <string name="subtitle_v">Off</string>
+    <string name="text_size_v">None</string>
+    <string name="text_color_v">None</string>
+    <string name="text_encoding_v">None</string>
+    <string name="album">Aulbum Name</string>
+    <string name="year">Year</string>
+    <string name="artist">Artist Name</string>
+    <string name="stime">00:00:00</string>
+    <string name="endtime">00:00:00</string>
+    <string name="media_browser">MEDIA BROWSER</string>
+
+    <!-- photo single view banner -->
+    <string name="device_removed_toast">Device has been removed.</string>
+    <string name="banner_slideshow">Slide Show</string>
+    <string name="banner_bg_music">Music</string>
+    <string name="banner_repeat">Repeat</string>
+    <string name="banner_zoomin">ZoomIn</string>
+    <string name="banner_zoomout">ZoomOut</string>
+    <string name="banner_leftrotate">Left Rotate</string>
+    <string name="banner_rightrotate">Right Rotate</string>
+    <string name="banner_returnto_multi">Multi View</string>
+    <string name="txtIntervalTime">Intervel Time</string>
+    <string name="QuickMenu">Quick Menu</string>
+    <string name="quick_menu_photo_intervalTime">Interval Time</string>
+    <string name="quick_menu_repeat">Repeat</string>
+    <string name="quick_menu_picture_mode">PICTURE</string>
+    <string name="quick_menu_subtitle">Subtitle</string>
+    <string name="quick_menu_audio_track">Audio</string>
+    <string name="timeUnit">sec</string>
+    <string name="title_exif">Title: </string>
+    <string name="date_exif">Date: </string>
+    <string name="size_exif">Resolution: </string>
+    <string name="folder_exif">Folder: </string>
+    <string name="decode_fail">Decode Failed.</string>
+    <string name="year_menuicon">year</string>
+	 <string name="day_menuicon">day</string>
+	 <string name="device_exif">device: </string>
+   	<string name="fullblank">　</string> 
+    
+    <string name="toast_not_available">Not Available</string>
+     <string name="device_was_removed">The current server was removed!</string>
+     
+     
+     
+<!-- QUICKMENU -->
+	 <string name="qm_interval_fast">Fast</string>
+	 <string name="qm_interval_normal">Normal</string>
+	 <string name="qm_interval_slow">Slow</string>
+	 <string name="qm_repeat_on">On</string>
+	 <string name="qm_repeat_off">Off</string>
+
+
+
+    <string name="txtSound">SOUND</string>
+    <string name="txtRepeat">Repeat</string>
+    <string name="txtSleep">Sleep Timer</string>
+    <string name="txtDevice">Device Information</string>
+    <string name="title">File Name</string>
+    <string name="date">Date</string>
+    <string name="resolution">Resolution</string>
+    <string name="totaltime">Total Time</string>
+    <string name="usb">USB</string>
+    <string name="gapline">/</string>
+    <string name="blanktime">--:--:--</string>
+    <string name="quickmenu">Quick Menu</string>
+    <string name="quick_menu_tvapp">TV Application</string>
+    <string name="quick_menu_sysset">System Settings</string>
+    <string name="device_removed">Device has been removed.</string>
+    <string name="quick_menu_sleep">Sleep Timer</string>
+	<string name="tv_application">TV Application</string>
+	<string name="sys_setting">System Settings</string>
+	<string name="quick_menu_picture">PICTURE</string>
+	<string name="quick_menu_sound">SOUND</string>
+	<string name="digital_100">100</string>
+	<string name="digital_0">0</string>
+	<string name="digital_1k">1k</string>
+	<string name="digital_10k">10k</string>
+	<string name="spectrum_unit">Frenquency (Hz)</string>
+	
+	 <!-- Confirm message -->
+	 <string name="msg_resumePlay">Resume play?</string>
+	 <string name="resumePlay_hint">Resume playback is currently available for this file. 
+	 However, if you press the Stop key again, the resume point will be lost.</string>
+	 <string name="msg_yes">Yes</string>
+	 <string name="msg_no">No</string>
+	 <string name="msg_cancel">Cancel</string>
+	 <string name="msg_ok">OK</string>
+	 <string name="msg_noFile">No applicable media files.</string>
+	 <string name="msg_drm_request_rental1">This DivX® rental has used </string>
+	 <string name="msg_drm_request_rental2">out of</string>
+	 <string name="msg_drm_request_rental3">views. Continue?</string>
+	 <string name="msg_drm_not_auth_user">Your device is not authorized to play this DivX® protected video.</string>
+	 <string name="msg_drm_rental_expired1">This DivX® rental has used</string>
+	 <string name="msg_drm_rental_expired2">views. This DivX® rental has expired.</string>
+	 <string name="msg_resume_remove_hint">Resume point has been removed!</string>
+	 <string name="msg_no_resume_point_hint">No resume point could be removed!</string>
+	 <string name="msg_exit">Please press the back key again to exit application.</string>
+	 <string name="title_jump">Would you like to jump to another title?</string>
+	 <string name="file_jump">Would you like to jump to another file?</string>
+	 <string name="msg_hint">Hint</string>
+	 <string name="msg_divx">Divx</string>
+	 <string name="msg_seek_forward_forbidden">This file can not be seek forward!</string>
+	 <string name="msg_seek_rewind_forbidden">This file can not be seek rewind!</string>
+	 <string name="msg_seek_pause_forbidden">This file can not be paused!</string>
+	 <string name="msg_seek_forbidden">This file can not be seek !</string>
+	 <string name="msg_unsupport">Unsupported file.</string>
+	 <string name="msg_unauthorised_divx_drm_version">Unauthorised DivX DRM version</string>
+	 <string name="msg_playback_error">Media playback error</string>
+	 <string name="usb_remove">Please insert external disk!</string>
+	 <string name="more_than_chapter_num">Please input number that is less than chapter total number! Chapter Number</string>
+	 <string name="less_than_chapter_num">Please input number that is more than 0! Chapter Number</string>
+	 <string name="input_inlegal">is illegal</string>
+	 
+	 <string name="msg_donot_switch_title">Please do not switch title, when playback is rewinding or forwarding.</string>
+	 <string name="msg_donot_switch_chapter">Please do not switch chapter, when playback is rewinding or forwarding.</string>
+	 
+	 <string name="raw">RAW</string>
+	 <string name="LPCM">LPCM</string>
+
+	 <string name="FatalErrorCode_Audio_Unknow_Format">Audio format not supported</string>
+	 <string name="FatalErrorCode_Video_Frame_Rate">Video Framerate not supported</string>
+	 <string name="FatalErrorCode_Video_Resolution">Video resolution not supported</string>
+	 <string name="Video_Play_Error">Video Player Exception, Error Code:</string>
+	 <string name="DMS_was_close">This DMS has been closed,return the DMS list view?</string>
+	 <string name="invalid_file">No valid File,Quit Video Player!</string>
+	 <string name="Media_Server_Die">MediaServer died, finish this activity and go to Media Selection</string>
+	 <string name="unsupport_file">This file is invalid</string>
+	 <string name="novalidfile">No valid File,Quit Music Player!</string>
+	 
+	 <!-- Guide Line -->
+	 <string name="guide_ok">OK</string>
+	 <string name="guide_enter">Enter</string>
+	 <string name="guide_quick">QUICK</string>
+	 <string name="guide_features">Features</string>
+	 <string name="guide_p">P</string>
+	 <string name="guide_page">Page</string>
+	 <string name="guide_play">Play</string>
+	 <string name="guide_pre_next">Previous/Next</string>
+	 <string name="guide_select">Select</string>
+	 <string name="guide_arrows">"←→"</string>
+
+
+	 <string name="guide_rotate">Rotate</string>
+	 <string name="guide_zoom">Zoom</string>
+	 <string name="guide_move">Move</string>
+	 <string name="guide_back">BACK</string>
+	 <string name="guide_return">Return</string>
+	 <string name="guide_zoom_out">Zoom Out</string>
+	 <string name="guide_zoom_in">Zoom In</string>
+	 <string name="guide_slide_show">Slide Show</string>
+	 <string name="guide_single_view">Single View</string>
+
+
+	 <string name="guide_num0">0</string>
+	 <string name="guide_num9">9</string>
+	 <string name="guide_num">-</string>
+	 <string name="guide_chapterjump">Chapter Jump</string>
+	 <string name="guide_titlechange">Title Change</string>
+	 
+	 <!-- Picture Size -->
+	 <string name="picture_normal">Normal</string>
+	 <string name="picture_native">Native</string>
+	 <string name="picture_wide">Wide</string>
+	 <string name="picture_4_3">4:3</string>
+	 <string name="picture_pc_wide">PC Wide</string>
+	 <string name="picture_pc_normal">PC Normal</string>
+	 <string name="picture_super_live">Super Live</string>
+	 <string name="picture_cinema">Cinema</string>
+	 <string name="picture_subtitle">Subtitle</string>
+	 <string name="picture_14_9">14:9</string>
+	 <string name="picture_dot_by_dot">Dot By Dot</string>
+	 <string name="picture_zoom">Zoom</string>
+	 <string name="repeat_off">Off</string>
+	 <string name="repeat_all">All</string>
+	 <string name="repeat_one">1</string>
+	 
+	 <!-- MODE 3D START -->
+	 <string name="TITLE_3DMODE_SETTING">3D设置</string>
+	 <string name="TITLE_3DMODE_MODE">3D模式</string>
+	 <string name="TITLE_3DMODE_LRSWAP">左右切换</string>
+	 <string name="TITLE_3DMODE_DEEP">3D景深</string>
+	 <string name="TITLE_3DMODE_STRENGTH">3D强度</string>
+	 <string name="TITLE_3DMODE_3DCVRT2D">3D转2D</string>
+	 <string name="TITLE_3DMODE_RATIO">长宽比</string>
+	 <string name="TITLE_3DMODE_MUTE">静音</string>
+	 
+	 <string name="SLR_3DMODE_2D">SLR_3DMODE_2D</string>
+	 <string name="SLR_3DMODE_3D_AUTO">SLR_3DMODE_3D_AUTO</string>
+	 <string name="SLR_3DMODE_3D_SBS">SLR_3DMODE_3D_SBS</string>
+	 <string name="SLR_3DMODE_3D_TB">SLR_3DMODE_3D_TB</string>
+	 <string name="SLR_3DMODE_3D_FP">SLR_3DMODE_3D_FP</string>
+	 <string name="SLR_3DMODE_2D_CVT_3D">SLR_3DMODE_2D_CVT_3D</string>
+	 
+	 <string name="SLR_3DMODE_3D_LBL">SLR_3DMODE_3D_LBL</string>
+	 <string name="SLR_3DMODE_3D_VSTRIP">SLR_3DMODE_3D_VSTRIP</string>
+	 <string name="SLR_3DMODE_3D_CKB">SLR_3DMODE_3D_CKB</string>
+	 <string name="SLR_3DMODE_3D_REALID">SLR_3DMODE_3D_REALID</string>
+	 <string name="SLR_3DMODE_3D_SENSIO">SLR_3DMODE_3D_SENSIO</string>
+	 
+	 <string name="SLR_3DMODE_3D_AUTO_CVT_2D">SLR_3DMODE_3D_AUTO_CVT_2D</string>
+	 <string name="SLR_3DMODE_3D_SBS_CVT_2D">SLR_3DMODE_3D_SBS_CVT_2D</string>
+	 <string name="SLR_3DMODE_3D_TB_CVT_2D">SLR_3DMODE_3D_TB_CVT_2D</string>
+	 <string name="SLR_3DMODE_3D_FP_CVT_2D">SLR_3DMODE_3D_FP_CVT_2D</string>
+	 
+	 <string name="SLR_3DMODE_3D_LBL_CVT_2D">SLR_3DMODE_3D_LBL_CVT_2D</string>
+	 <string name="SLR_3DMODE_3D_VSTRIP_CVT_2D">SLR_3DMODE_3D_VSTRIP_CVT_2D</string>
+	 <string name="SLR_3DMODE_3D_CKB_CVT_2D">SLR_3DMODE_3D_CKB_CVT_2D</string>
+	 <string name="SLR_3DMODE_3D_REALID_CVT_2D">SLR_3DMODE_3D_REALID_CVT_2D</string>
+	 <string name="SLR_3DMODE_3D_SENSIO_CVT_2D">SLR_3DMODE_3D_SENSIO_CVT_2D</string>
+	 
+	 <string name="SLR_3DMODE_DISABLE">SLR_3DMODE_DISABLE</string>
+	 
+	 <string name="TITLE_3DMODE_SETTING_ON">ON</string>
+	 <string name="TITLE_3DMODE_SETTING_OFF">OFF</string>
+	 <string name="TITLE_3DMODE_SETTING_LFRAME">LEFT</string>
+	 <string name="TITLE_3DMODE_SETTING_RFRAME">RIGHT</string>
+	 <!-- 
+	 <string name="PS_4_3">PS_4_3</string>
+	 <string name="LB_4_3">LB_4_3</string>
+	 <string name="Wide_16_9">Wide_16_9</string>
+	 <string name="Wide_16_10">Wide_16_10</string>
+	 <string name="SCALER_RATIO_AUTO">SCALER_RATIO_AUTO</string>
+	 <string name="SCALER_RATIO_4_3">SCALER_RATIO_4_3</string>
+	 <string name="SCALER_RATIO_16_9">SCALER_RATIO_16_9</string>
+	 <string name="SCALER_RATIO_14_9">SCALER_RATIO_14_9</string>
+	 <string name="SCALER_RATIO_LETTERBOX">SCALER_RATIO_LETTERBOX</string>
+	 <string name="SCALER_RATIO_PANORAMA">SCALER_RATIO_PANORAMA</string>
+	 <string name="SCALER_RATIO_FIT">SCALER_RATIO_FIT</string>
+	 <string name="SCALER_RATIO_POINTTOPOINT">SCALER_RATIO_POINTTOPOINT</string>
+	 <string name="SCALER_RATIO_BBY_AUTO">SCALER_RATIO_BBY_AUTO</string>
+	 <string name="SCALER_RATIO_BBY_NORMAL">SCALER_RATIO_BBY_NORMAL</string>
+	 <string name="SCALER_RATIO_BBY_ZOOM">SCALER_RATIO_BBY_ZOOM</string>
+	 <string name="SCALER_RATIO_BBY_WIDE_1">SCALER_RATIO_BBY_WIDE_1</string>
+	 <string name="SCALER_RATIO_BBY_WIDE_2">SCALER_RATIO_BBY_WIDE_2</string>
+	 <string name="SCALER_RATIO_BBY_CINEMA">SCALER_RATIO_BBY_CINEMA</string>
+	 <string name="SCALER_RATIO_CUSTOM">SCALER_RATIO_CUSTOM</string>
+	 <string name="SCALER_RATIO_PERSON">SCALER_RATIO_PERSON</string>
+	 <string name="SCALER_RATIO_CAPTION">SCALER_RATIO_CAPTION</string>
+	 <string name="SCALER_RATIO_MOVIE">SCALER_RATIO_MOVIE</string>
+	 <string name="SCALER_RATIO_100">SCALER_RATIO_100</string>
+	 <string name="SCALER_RATIO_SOURCE">SCALER_RATIO_SOURCE</string>
+	 <string name="SCALER_RATIO_ZOOM_14_9">SCALER_RATIO_ZOOM_14_9</string>
+	 <string name="SCALER_RATIO_DISABLE">SCALER_RATIO_DISABLE</string>
+	  -->
+
+	 <string name="SLR_RATIO_AUTO">SLR_RATIO_AUTO</string>
+	 <string name="SLR_RATIO_4_3">SLR_RATIO_4_3</string>
+	 <string name="SLR_RATIO_16_9">SLR_RATIO_16_9</string>
+	 <string name="SLR_RATIO_14_9">SLR_RATIO_14_9</string>
+	 <string name="SLR_RATIO_LETTERBOX">SLR_RATIO_LETTERBOX</string>
+	 <string name="SLR_RATIO_PANORAMA">SLR_RATIO_PANORAMA</string>
+	 <string name="SLR_RATIO_FIT">SLR_RATIO_FIT</string>
+	 <string name="SLR_RATIO_POINTTOPOINT">SLR_RATIO_POINTTOPOINT</string>
+	 <string name="SLR_RATIO_BBY_AUTO">SLR_RATIO_BBY_AUTO</string>
+	 <string name="SLR_RATIO_BBY_NORMAL">SLR_RATIO_BBY_NORMAL</string>
+	 <string name="SLR_RATIO_BBY_ZOOM">SLR_RATIO_BBY_ZOOM</string>
+	 <string name="SLR_RATIO_BBY_WIDE_1">SLR_RATIO_BBY_WIDE_1</string>
+	 <string name="SLR_RATIO_BBY_WIDE_2">SLR_RATIO_BBY_WIDE_2</string>
+	 <string name="SLR_RATIO_BBY_CINEMA">SLR_RATIO_BBY_CINEMA</string>
+	 <string name="SLR_RATIO_CUSTOM">SLR_RATIO_CUSTOM</string>
+	 <string name="SLR_ASPECT_RATIO_PERSON">SLR_ASPECT_RATIO_PERSON</string>
+	 <string name="SLR_ASPECT_RATIO_CAPTION">SLR_ASPECT_RATIO_CAPTION</string>
+	 <string name="SLR_ASPECT_RATIO_MOVIE">SLR_ASPECT_RATIO_MOVIE</string>
+	 <string name="SLR_ASPECT_RATIO_100">SLR_ASPECT_RATIO_100</string>
+	 <string name="SLR_ASPECT_RATIO_SOURCE">SLR_ASPECT_RATIO_SOURCE</string>
+	 <string name="SLR_RATIO_ZOOM_14_9">SLR_RATIO_ZOOM_14_9</string>
+	 <!-- MODE 3D END -->
+	 
+	 <!-- divx setup -->
+	 <string name="divx_setup">Setup</string> 
+	 <string name="divx_item_register">DivX® VOD Registration</string>
+	 <string name="divx_item_deregister">DivX® VOD Deregistration</string>
+	 <string name="divx_title">DivX® VOD</string>
+	 
+	 <string name="divx_register_clue0">You must register your device to play</string>
+	 <string name="divx_register_clue1">Registration code:</string>
+	 <string name="divx_register_clue2">Register at</string>
+	 <string name="divx_register_clue3">DivX® protected videos.</string>
+	 <string name="divx_register_clue4">http://vod.divx.com</string>
+	 
+	 <string name="divx_confirm_clue0">Your device is already registered.</string>
+	 <string name="divx_confirm_clue1">Are you sure you wish to deregister?</string>
+	 <string name="divx_confirm_clue2">Yes</string>
+	 <string name="divx_confirm_clue3">No</string>
+	 
+	 <string name="divx_deregister_clue0">Deregistration code: </string>
+	 <string name="divx_deregister_clue1">Deregister at</string>
+	 <string name="divx_deregister_clue2">Continue with registration?</string>
+	 
+	 <!-- hartley add -->
+	  
+	  
+	 <!-- hartley add -->
+	 <string name="internal_memory">Internal Memory</string>
+	 <string name="maxfilenum">There are more than maximum number of files. Some files cannot be displayed.</string>
+	 <string name="note_title">note</string>
+	 <string name="note_ok">OK</string>
+	 <string name="note_cancel">Cancel</string>
+	 <string name="note_back">Back to Last Level</string>
+	 
+	 <string name="mediaplayer">Media Player</string>
+	 <string name="mote_ok">确认</string>
+	 <string name ="menu_audio_switch">Audio</string>
+	 <string name ="menu_update">Update</string>
+	 <string name ="menu_register">Register the device</string>	
+	 <string name ="menu_setting">Settings</string>
+	 <string name ="menu_help">Help</string>
+	 <string name ="sort_up">sort up</string>
+	 <string name ="sort_down">sort down</string>	
+	 <string name="quick_menu_version">Version</string>
+     <string name="quick_menu_exit">Exit</string>
+     <string name="quick_menu_detail">Details</string>
+     <string name="quick_menu_help">Help</string> 
+     <string name="home_network_player">Home Network Player / live</string>
+     <string name="device_select">デバイスを選択</string>
+     <string name="channel_land">地上デジタル</string>
+     <string name="channel_cs">110度CS</string>
+     <string name="channel_bs">BSデジタル</string>
+     <string name="device_register">機器登録</string>
+     <string name="delete">削除</string>
+     <string name="cancel">キャンセル</string>
+     <string name="update">更新</string>
+     <string name="pic_quality">画質切り替え</string>
+     <string name="channel_setting">チャンネル設定</string>
+     <string name="done">完了</string>
+     <string name="device_name">本体名</string>
+     <string name="user_name">ユーザー名</string>
+     <string name="password">パスワード</string>
+     <string name="ip_address">IPアドレス</string>
+     <string name="mac_address">MACアドレス</string>
+     <string name="port_no">ポート番号</string>
+     <string name="network_connect_error">Input value does not match with connected device. Please check the setting of connected device.</string>
+	 <string name="wol_sending_confirmation">"サーバーを起動しますか？
+・起動には時間がかかる場合があります。
+・接続機器がWake On LANに対応していない場合には
+　起動しません。"</string>
+	<string name="wol_sended_msg">Send WoL packet tp selected DMS. Please wait a moment</string>
+	 
+</resources>

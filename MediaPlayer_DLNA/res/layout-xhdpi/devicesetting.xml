@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginTop="14.25dp"
+            android:singleLine="true"
+            android:text="@string/home_network_player"
+            android:textColor="#ffffff"
+            android:textSize="20.25sp" />
+
+        <ImageButton
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:src="@drawable/dlna_media_menu_icon" />
+        <RelativeLayout
+            android:id="@+id/device_setting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/device_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16.5dp"
+                android:layout_marginTop="60dp"
+                android:textColor="#ffffff"
+                android:text="@string/device_register"
+                android:textSize="15sp" />
+
+            <GridView
+                android:id="@+id/device_info"
+                android:layout_width="900dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="100dp"
+                android:fastScrollEnabled="false"
+                android:listSelector="@color/videoBrowserListItemSelectedBackground"
+                android:numColumns="1"
+                android:paddingRight="10dp"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarSize="10dp"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbarThumbVertical="@drawable/scroll_thumb"
+                android:scrollbarTrackVertical="@drawable/scroll_track"
+                android:scrollbars="vertical"
+                android:verticalSpacing="@dimen/landscape_list_verticalSpacing" />
+            
+            <RelativeLayout
+                android:id="@+id/v_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="365dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/v_bottom_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dlna_livestream_button_device_setting_base" />
+
+                <TextView
+                    android:id="@+id/v_bottom_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/channel_setting"
+                    android:textColor="#ffffff"
+                    android:textSize="10.25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/v_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/device_info"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="60dp" >
+
+                <ImageView
+                    android:id="@+id/v_right_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dlna_livestream_button_device_setting_base" />
+
+                <TextView
+                    android:id="@+id/v_right_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/done"
+                    android:textColor="#ffffff"
+                    android:textSize="10.25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/v_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toLeftOf="@id/v_right" >
+
+                <ImageView
+                    android:id="@+id/v_left_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dlna_livestream_button_device_setting_base" />
+
+                <TextView
+                    android:id="@+id/v_left_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cancel"
+                    android:textColor="#ffffff"
+                    android:textSize="10.25sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

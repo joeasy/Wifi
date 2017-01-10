@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="26.666dp"
+        android:background="@color/gray" >
+
+        <TextView
+            android:id="@+id/resolution"
+            android:layout_width="66.666dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6.666dp"
+            android:textColor="@color/white"
+            android:textSize="13.333sp" 
+            android:layout_centerVertical="true"/>"
+
+        <TextView
+            android:id="@+id/bitrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.333dp"
+            android:layout_toRightOf="@id/resolution"
+            android:textColor="@color/white"
+            android:textSize="13.333sp" 
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="13.333dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/dlna_livestream_icon_picture_quality_radio_n" />
+    </RelativeLayout>
+
+</RelativeLayout>

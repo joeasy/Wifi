@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/divider">
+    
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/dnla_device_check_off"
+        android:gravity="center_vertical"/>
+    
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="33.9975dp"
+        android:layout_toRightOf="@id/check"
+        android:layout_marginLeft="18dp"
+        android:gravity="center_vertical"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="12sp"/>
+    
+    <ImageView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" 
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="50dp"
+        android:focusable="false" 
+        android:src="@drawable/dlna_livestream_icon_device_setting_n"/>
+
+</RelativeLayout>

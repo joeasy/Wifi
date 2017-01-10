@@ -1,0 +1,228 @@
+<resources>
+
+    <string name="app_name">Home Network Player</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_media_browser">RTKDMP</string>
+    <string name="title_activity_audio_browser">AudioBrowser</string>
+    
+    <string name="video">video</string>
+    <string name="audio">audio</string>
+    <string name="photo">photo</string>
+    
+    <string name="hasplayed">00:00:00</string>
+    <string name="duration">00:00:00</string>
+    
+    <string name="title_music">"Musique"</string>
+    <string name="title_photo">Photos</string>
+    <string name="title_movie">"Vidéos"</string>
+    <string name="title_setup">"Réglage"</string>
+    
+    <string name="subtitle1">Subtitle&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="text_color">Text Color&#160;&#160;&#160;&#160;&#160;&lt;
+    	&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_size">Text Size&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_encoding">Encoding&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+        
+    <string name="subtitle_v">Off</string>
+    <string name="text_size_v">None</string>
+    <string name="text_color_v">None</string>
+    <string name="text_encoding_v">None</string>
+    <string name="album">Album</string>
+    <string name="year">Year</string>
+    <string name="artist">"Artiste"</string>
+    <string name="stime">00:00:00</string>
+    <string name="endtime">00:00:00</string>
+    <string name="media_browser">MEDIA BROWSER</string>
+
+    <!-- photo single view banner -->
+    <string name="device_removed_toast">Device has been removed.</string>
+    <string name="banner_slideshow">Slide Show</string>
+    <string name="banner_bg_music">"Musique"</string>
+    <string name="banner_repeat">Répéter</string>
+    <string name="banner_zoomin">ZoomIn</string>
+    <string name="banner_zoomout">ZoomOut</string>
+    <string name="banner_leftrotate">Left Rotate</string>
+    <string name="banner_rightrotate">Right Rotate</string>
+    <string name="banner_returnto_multi">Multi View</string>
+    <string name="txtIntervalTime">Durée de l\'intervalle</string>
+    <string name="QuickMenu">Menu rapide</string>
+    <string name="quick_menu_photo_intervalTime">Durée de l\'intervalle</string>
+    <string name="quick_menu_repeat">Répéter</string>
+    <string name="quick_menu_picture_mode">IMAGE</string>
+    <string name="timeUnit">sec</string>
+    <string name="title_exif">Titre: </string>
+    <string name="date_exif">Date:</string>
+    <string name="size_exif">Taille: </string>
+    <string name="device_exif">Périphérique: </string>
+    <string name="folder_exif">Dossier : </string>
+    <string name="decode_fail">Decode Failed.</string>
+    
+    
+    
+    
+
+
+ <!-- QUICKMENU -->
+	 <string name="qm_interval_fast">Rapide</string>
+	 <string name="qm_interval_normal">Normale</string>
+	 <string name="qm_interval_slow">Lente</string>
+	 <string name="qm_repeat_on">Marche</string>
+	 <string name="qm_repeat_off">Arrêt</string>
+	 <string name="year_menuicon">year</string>
+	 <string name="day_menuicon">day</string>
+    
+	 <string name="toast_not_available">Pas disponible</string>
+
+    <string name="txtSound">SON</string>
+    <string name="txtRepeat">Répéter</string>
+    <string name="txtSleep">Arrêt différé</string>
+    <string name="txtDevice">Device Information</string>
+    <string name="title">"Titre"</string>
+    <string name="date">Date</string>
+    <string name="totaltime">"Temps Total"</string>
+    <string name="usb">USB</string>
+    <string name="gapline">/</string>
+    <string name="blanktime">--:--:--</string>
+    <string name="quickmenu">Menu rapide</string>
+    <string name="quick_menu_tvapp">Application TV</string>
+    <string name="quick_menu_sysset">Réglages système</string>
+    <string name="device_removed">Device has been removed.</string>
+    <string name="quick_menu_sleep">Arrêt différé</string>
+	<string name="tv_application">Application TV</string>
+	<string name="sys_setting">Réglages système</string>
+	<string name="quick_menu_picture">IMAGE</string>
+	<string name="quick_menu_sound">SON</string>
+	<string name="digital_100">100</string>
+	<string name="digital_1k">1k</string>
+	<string name="digital_10k">10k</string>
+	<string name="spectrum_unit">"Fréquence (Hz)"</string>
+	
+	 <!-- Confirm message -->
+	 <string name="msg_resumePlay">"Continuer la lecture?"</string>
+	 <string name="resumePlay_hint">"Resume playback is currently available for this file. Toutefois, si vous appuyez sur la touche Arrêt de nouveau, le point de reprise sera perdu."</string>
+	 <string name="msg_yes">Oui</string>
+	 <string name="msg_no">Non</string>
+	 <string name="msg_noFile">"Pas de fichier multimedia"</string>
+	 <string name="msg_drm_request_rental1">"Ce DivX® en location a été visionné"</string>
+	 <string name="msg_drm_request_rental2">"fois sur les"</string>
+	 <string name="msg_drm_request_rental3">"fois possibles. Continuer ?"</string>
+	 <string name="msg_drm_not_auth_user">"Votre appareil n'est pas autorisé pour lire cette vidéo DivX® protégée."</string>
+	 <string name="msg_drm_rental_expired2">"fois possibles. La période de location DivX® a expirée."</string>
+	 <string name="msg_resume_remove_hint">Resume point has been removed!</string>
+	 <string name="msg_no_resume_point_hint">No resume point could be removed!</string>
+	 <string name="msg_exit">"Appuyez à nouveau sur la touche Retour pour quitter l'application."</string>
+	 <string name="title_jump">Would you like to jump to another title?</string>
+	 <string name="file_jump">Would you like to jump to another file?</string>
+	 <string name="msg_hint">Hint</string>
+	 <string name="msg_divx">Divx</string>
+	 <string name="msg_seek_forward_forbidden">This file can not be seek forward!</string>
+	 <string name="msg_seek_rewind_forbidden">This file can not be seek rewind!</string>
+	 <string name="msg_seek_pause_forbidden">This file can not be paused!</string>
+	 <string name="msg_seek_forbidden">This file can not be seek !</string>
+	 <string name="msg_unsupport">Unsupported file.</string>
+	 <string name="msg_unauthorised_divx_drm_version">"DRM non autorisé pour cette version DivX®.."</string>
+	 
+	 <string name="usb_remove">Please insert external disk!</string>
+	 <string name="more_than_chapter_num">Please input number that is less than chapter total number! Chapter Number</string>
+	 <string name="less_than_chapter_num">Please input number that is more than 0! Chapter Number</string>
+	 <string name="input_inlegal">is illegal</string>
+	 
+	 <string name="msg_donot_switch_title">Please do not switch title, when playback is rewinding or forwarding.</string>
+	 <string name="msg_donot_switch_chapter">Please do not switch chapter, when playback is rewinding or forwarding.</string>
+	 
+	 <string name="raw">RAW</string>
+	 <string name="LPCM">LPCM</string>
+
+	 <string name="FatalErrorCode_Audio_Unknow_Format">"Format audio non pris en charge."</string>
+	 <string name="FatalErrorCode_Video_Frame_Rate">"Fréquence d'image vidéo non prise en charge."</string>
+	 <string name="FatalErrorCode_Video_Resolution">"Résolution vidéo non prise en charge."</string>
+	 <string name="Video_Play_Error">Video Player Exception, Error Code:</string>
+	 <string name="Media_Server_Die">MediaServer died, finish this activity and go to Media Selection</string>
+	 <string name="unsupport_file">This file is invalid</string>
+	 <string name="novalidfile">No valid File,Quit Music Player!</string>
+	 
+	 <!-- Guide Line -->
+	 <string name="guide_ok">OK</string>
+	 <string name="guide_enter">"Valider"</string>
+	 <string name="guide_quick">QUICK</string>
+	 <string name="guide_features">"caractér."</string>
+	 <string name="guide_p">P</string>
+	 <string name="guide_page">Page</string>
+	 <string name="guide_play">"Lecture"</string>
+	 <string name="guide_pre_next">Précéd./Suiv.</string>
+
+
+	 <string name="guide_rotate">Rotation</string>
+	 <string name="guide_zoom">Zoom</string>
+	 <string name="guide_move">Dép.</string>
+	 <string name="guide_back">BACK</string>
+	 <string name="guide_return">Retour</string>
+	 <string name="guide_zoom_out">Zoom arrière</string>
+	 <string name="guide_zoom_in">Zoom avant</string>
+	 <string name="guide_slide_show">Diaporama</string>
+	 <string name="guide_single_view">Vue simple</string>
+	 <string name="guide_select">"Sélectionner"</string>
+	 <string name="guide_arrows">"←→"</string>
+
+
+	 <string name="guide_num0">0</string>
+	 <string name="guide_num9">9</string>
+	 <string name="guide_num">-</string>
+	 <string name="guide_chapterjump">"Saut de chapitre"</string>
+	 <string name="guide_titlechange">"Changement de titre"</string>
+	 
+	 <!-- Picture Size -->
+	 <string name="picture_normal">"Normale"</string>
+	 <string name="picture_native">"Natif"</string>
+	 <string name="picture_wide">"Large"</string>
+	 <string name="picture_4_3">4:3</string>
+	 <string name="picture_pc_wide">"PC format large"</string>
+	 <string name="picture_pc_normal">"PC normal"</string>
+	 <string name="picture_super_live">"Plein écran"</string>
+	 <string name="picture_cinema">"Cinéma"</string>
+	 <string name="picture_subtitle">"Sous-titre"</string>
+	 <string name="picture_14_9">14:9</string>
+	 <string name="picture_dot_by_dot">"Pixel par pixel"</string>
+	 <string name="picture_zoom">Zoom</string>
+	 
+	 <!-- divx setup -->
+	 <string name="divx_setup">"Réglage"</string>
+	 <string name="divx_item_register">Inscription DivX® VOD</string>
+	 <string name="divx_item_deregister">Désinscription DivX® VOD</string>
+	 <string name="divx_title">DivX® VOD</string>
+	 
+	 <string name="divx_register_clue0">Vous devez inscrire votre appareil pour</string>
+	 <string name="divx_register_clue1">Code d\'inscription :</string>
+	 <string name="divx_register_clue2">Inscrivez-vous à</string>
+	 <string name="divx_register_clue3">lire les vidéos DivX® protégées.</string>
+	 <string name="divx_register_clue4">http://vod.divx.com</string>
+	 
+	 <string name="divx_confirm_clue0">Votre appareil est déjà inscrit.</string>
+	 <string name="divx_confirm_clue1">Êtes-vous sûr de vouloir vous désinscrire ?</string>
+	 <string name="divx_confirm_clue2">Oui</string>
+	 <string name="divx_confirm_clue3">Non</string>
+	 
+	 <string name="divx_deregister_clue0">Code de désinscription : </string>
+	 <string name="divx_deregister_clue1">Désinscrivez-vous à</string>
+	 <string name="divx_deregister_clue2">Continuer l\'inscription ?</string>
+	 <string name="repeat_all">"Tout"</string>
+	 
+	 <string name="maxfilenum">Le nombre maximum de fichiers est dépassé. Certains fichiers ne pourront pas être affichés.</string>
+	 
+</resources>

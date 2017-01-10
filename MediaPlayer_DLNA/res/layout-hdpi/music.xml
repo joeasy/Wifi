@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/dlna_list_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/file_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/loadingIcon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="36dp"
+            android:background="#00000000"
+            android:src="@drawable/others_icons_loading" />
+
+        <com.realtek.Utils.widget.VerticalBar
+            android:id="@+id/seek_progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="21dp"
+            android:layout_height="552dp"
+            android:layout_marginLeft="739dp"
+            android:layout_marginTop="120dp"
+            android:max="100"
+            android:progress="20"
+            android:progressDrawable="@drawable/seek_progress_bar"
+            android:visibility="invisible" />
+
+        <GridView
+            android:id="@+id/audio_list"
+            android:layout_width="608dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="138dp"
+            android:fastScrollEnabled="false"
+            android:horizontalSpacing="@dimen/landscape_list_horizontalSpacing"
+            android:listSelector="@drawable/grid_selector"
+            android:numColumns="1"
+
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="8dp"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbarThumbVertical="@drawable/scroll_thumb"
+            android:scrollbarTrackVertical="@drawable/scroll_track"
+            android:scrollbars="vertical"
+            android:verticalSpacing="@dimen/landscape_list_verticalSpacing" >
+
+        </GridView>
+
+        <TextView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="34dp"
+            android:singleLine="true"
+            android:text="@string/mediaplayer"
+            style="@style/MediaPlayer.Title" />
+
+        <ImageView
+            android:id="@+id/imgPath"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="88dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/dnla_folder_icon_s" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:singleLine="true"
+            android:text="@string/title_music"
+            style="@style/MediaPlayer.Title" />
+
+        <TextView
+            android:id="@+id/music_path_top"
+            android:layout_width="480dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="88dp"
+            android:ellipsize="end"
+            android:shadowColor="#aaaaaa"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:gravity="left|center_vertical"
+            android:textSize="24px" />
+
+        <RelativeLayout
+            android:id="@+id/lay_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="86dp" >
+
+            <ImageView
+                android:id="@+id/sortup_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dnla_sorting_base_down" />
+
+            <ImageView
+                android:id="@+id/sortup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/sortup_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13dp"
+                android:src="@drawable/dnla_sorting_icon_down" />
+
+            <TextView
+                android:id="@+id/txt_sortup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/sortup_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:ellipsize="end"
+                android:shadowColor="#aaaaaa"
+                android:singleLine="true"
+                android:text="@string/date"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="86dp"
+            android:layout_toLeftOf="@id/lay_up" >
+
+            <ImageView
+                android:id="@+id/sortdown_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dnla_sorting_base_down" />
+
+            <ImageView
+                android:id="@+id/sortdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/sortdown_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13dp"
+                android:src="@drawable/dnla_sorting_icon_down" />
+
+            <TextView
+                android:id="@+id/txt_sortdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/sortdown_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:ellipsize="end"
+                android:shadowColor="#aaaaaa"
+                android:singleLine="true"
+                android:text="@string/name"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="27dp"
+            android:layout_marginTop="27dp"
+            android:src="@drawable/dlna_media_menu_icon" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/file_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/musicplayer"
+        android:visibility="gone" />
+
+</LinearLayout>

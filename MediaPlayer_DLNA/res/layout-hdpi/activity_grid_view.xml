@@ -1,0 +1,185 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#06284e"
+    tools:context=".GridViewActivity" >
+    
+    <ImageView
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/dlna_media_menu_icon" />
+    
+	<TextView
+        android:id="@+id/topMediaIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="19dp"
+        android:layout_width="wrap_content"        
+        android:layout_height="wrap_content"     
+        android:text="@string/mediaplayer"
+        style="@style/MediaPlayer.Title"
+        android:singleLine="true"
+	 />
+	<TextView
+        android:id="@+id/topMediaInfo"
+        android:layout_toRightOf="@+id/topMediaIcon"
+        android:layout_alignTop="@+id/topMediaIcon"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="@string/title_photo"
+        style="@style/MediaPlayer.Title" 
+        />
+	<ImageView
+        android:id="@+id/topLoadingIcon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="82.7dp"
+        android:layout_marginTop="36dp"
+        android:layout_width="40dp"        
+        android:layout_height="40dp" 
+  
+        android:src="@drawable/others_icons_loading"/>
+	
+	
+	<RelativeLayout
+            android:id="@+id/lay_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="70dp" >
+
+            <ImageView
+                android:id="@+id/sortup_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dnla_sorting_base_up" />
+
+            <ImageView
+                android:id="@+id/sortup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/sortup_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.3dp"
+                android:src="@drawable/dnla_sorting_icon_up" />
+
+            <TextView
+                android:id="@+id/txt_sortup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/sortup_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13.3dp"
+                android:ellipsize="end"
+                android:shadowColor="#aaaaaa"
+                android:singleLine="true"
+                android:text="@string/date"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="70dp"
+            android:layout_toLeftOf="@id/lay_up" >
+
+            <ImageView
+                android:id="@+id/sortdown_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dnla_sorting_base_down" />
+
+            <ImageView
+                android:id="@+id/sortdown"
+                android:layout_marginRight="13.3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/sortdown_bg"
+                android:layout_centerVertical="true"
+                android:src="@drawable/dnla_sorting_icon_down" />
+
+            <TextView
+                android:id="@+id/txt_sortdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/sortdown_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13.3dp"
+                android:ellipsize="end"
+                android:shadowColor="#aaaaaa"
+                android:singleLine="true"
+                android:text="@string/name"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+	
+	
+	<LinearLayout 
+	    android:id="@+id/ll_above_gv"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="34dp"
+        android:layout_marginTop="76dp"
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    >
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        >
+	        <ImageView
+		        android:id="@+id/imgPath"
+		        android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:scaleType="fitXY"
+		        android:src="@drawable/dnla_folder_icon_s" />
+
+			<TextView
+		        android:id="@+id/topMeidiaPathInfo"
+		        android:layout_width="480dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="#ffffff"     
+		        android:textSize="12sp" 
+		        android:ellipsize="end"
+		        android:layout_gravity="center_vertical"
+		        android:singleLine="true"/>
+
+	    </LinearLayout>   
+	</LinearLayout>
+
+	<LinearLayout 
+	    android:layout_below="@+id/ll_above_gv"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    >
+    
+	    <fragment android:name="com.rtk.dmp.GridViewFragment"
+	        android:id="@+id/gridview_fragment"
+	        android:focusable="true"
+	        android:layout_width="666.7dp"
+	        android:layout_height="1066.7dp" 
+	        />
+	</LinearLayout>
+
+</RelativeLayout>
+
+

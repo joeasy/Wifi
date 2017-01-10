@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dlna_list_bg"
+    android:id="@+id/main"
+    tools:context=".DMSListActivity" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+		<TextView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="19dp"
+            android:singleLine="true"
+            android:text="@string/mediaplayer"
+            style="@style/MediaPlayer.Title" />
+	    <ImageView
+	        android:id="@+id/loadingIcon"
+	        android:layout_width="36dp"
+	        android:layout_height="36dp"
+	        android:layout_marginLeft="1206dp"
+	        android:layout_marginTop="36dp"
+	        android:src="@drawable/others_icons_loading" />
+	    <TextView
+	        android:id="@+id/Top_Text"
+	        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:singleLine="true"
+            android:text="@string/title_music"
+            style="@style/MediaPlayer.Title" />
+	    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:singleLine="true"
+            android:text="@string/device_select"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+	    <GridView
+            android:id="@+id/dms_list"
+            android:layout_width="1200dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="53.333dp"
+            android:layout_marginTop="133.333dp"
+            android:fastScrollEnabled="false"
+            android:horizontalSpacing="@dimen/landscape_list_horizontalSpacing"
+            android:numColumns="1"
+            android:paddingRight="13.333dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="13.333dp"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbarThumbVertical="@drawable/scroll_thumb"
+            android:scrollbarTrackVertical="@drawable/scroll_track"
+            android:scrollbars="vertical"
+            android:verticalSpacing="@dimen/landscape_list_verticalSpacing" 
+            android:listSelector="@drawable/grid_selector"/>
+	    <ImageButton
+	        android:id="@+id/setting"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="26.666dp"
+            android:layout_marginTop="26.666dp"
+            android:background="#00000000"
+	        android:src="@drawable/dlna_media_menu_icon" />
+    </RelativeLayout>
+    
+</LinearLayout>

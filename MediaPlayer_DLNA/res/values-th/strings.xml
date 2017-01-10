@@ -1,0 +1,229 @@
+<resources>
+
+    <string name="app_name">Home Network Player</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_media_browser">RTKDMP</string>
+    <string name="title_activity_audio_browser">AudioBrowser</string>
+    
+    <string name="video">video</string>
+    <string name="audio">audio</string>
+    <string name="photo">photo</string>
+    
+    <string name="hasplayed">00:00:00</string>
+    <string name="duration">00:00:00</string>
+    
+    <string name="title_music">"เพลง"</string>
+    <string name="title_photo">ภาพถ่าย</string>
+    <string name="title_movie">"วิดีโอ"</string>
+    <string name="title_setup">"การปรับตั้ง"</string>
+    
+    <string name="subtitle1">Subtitle&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="text_color">Text Color&#160;&#160;&#160;&#160;&#160;&lt;
+    	&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_size">Text Size&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_encoding">Encoding&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+        
+    <string name="subtitle_v">Off</string>
+    <string name="text_size_v">None</string>
+    <string name="text_color_v">None</string>
+    <string name="text_encoding_v">None</string>
+    <string name="album">Album</string>
+    <string name="year">Year</string>
+    <string name="artist">"นักร้อง"</string>
+    <string name="stime">00:00:00</string>
+    <string name="endtime">00:00:00</string>
+    <string name="media_browser">MEDIA BROWSER</string>
+
+    <!-- photo single view banner -->
+    <string name="device_removed_toast">Device has been removed.</string>
+    <string name="banner_slideshow">Slide Show</string>
+    <string name="banner_bg_music">"เพลง"</string>
+    <string name="banner_repeat">ทำซ้ำ</string>
+    <string name="banner_zoomin">ZoomIn</string>
+    <string name="banner_zoomout">ZoomOut</string>
+    <string name="banner_leftrotate">Left Rotate</string>
+    <string name="banner_rightrotate">Right Rotate</string>
+    <string name="banner_returnto_multi">Multi View</string>
+    <string name="txtIntervalTime">ช่วงเวลา</string>
+    <string name="QuickMenu">เมนูด่วน</string>
+    <string name="quick_menu_photo_intervalTime">ช่วงเวลา</string>
+    <string name="quick_menu_repeat">ทำซ้ำ</string>
+    <string name="quick_menu_picture_mode">ภาพ</string>
+    <string name="timeUnit">sec</string>
+    <string name="title_exif">ชื่อเพลง: </string>
+    <string name="date_exif">วันที่: </string>
+    <string name="size_exif">ขนาด: </string>
+    <string name="device_exif">อุปกรณ์: </string>
+    <string name="folder_exif">โฟลเดอร์: </string>
+    <string name="decode_fail">Decode Failed.</string>
+    <string name="year_menuicon">year</string>
+	 <string name="day_menuicon">day</string>
+    
+    
+    
+    
+
+
+<!-- QUICKMENU -->
+	 <string name="qm_interval_fast">เร็ว</string>
+	 <string name="qm_interval_normal">ปกติ</string>
+	 <string name="qm_interval_slow">ช้า</string>
+	 <string name="qm_repeat_on">เปิด</string>
+	 <string name="qm_repeat_off">ปิด</string>
+
+	 
+	 <string name="toast_not_available">ไม่สามารถใช้งานได้</string>
+	
+    <string name="txtSound">เสียง</string>
+    <string name="txtRepeat">ทำซ้ำ</string>
+    <string name="txtSleep">ตัวตั้งเวลาปิด</string>
+    <string name="txtDevice">Device Information</string>
+    <string name="title">"ชื่อเพลง"</string>
+    <string name="date">"วันที่"</string>
+    <string name="totaltime">"เวลาทั้งหมด"</string>
+    <string name="usb">USB</string>
+    <string name="gapline">/</string>
+    <string name="blanktime">--:--:--</string>
+    <string name="quickmenu">เมนูด่วน</string>
+    <string name="quick_menu_tvapp">แอพพลิเคชั่นโทรทัศน์</string>
+    <string name="quick_menu_sysset">ค่าระบบ</string>
+    <string name="device_removed">Device has been removed.</string>
+    <string name="quick_menu_sleep">ตัวตั้งเวลาปิด</string>
+	<string name="tv_application">แอพพลิเคชั่นโทรทัศน์</string>
+	<string name="sys_setting">ค่าระบบ</string>
+	<string name="quick_menu_picture">ภาพ</string>
+	<string name="quick_menu_sound">เสียง</string>
+	<string name="digital_100">100</string>
+	<string name="digital_1k">1k</string>
+	<string name="digital_10k">10k</string>
+	<string name="spectrum_unit">"ความถี่ (Hz)"</string>
+	
+	 <!-- Confirm message -->
+	 <string name="msg_resumePlay">"เล่นต่อ?"</string>
+	 <string name="resumePlay_hint">"สามารถเปิดเล่นต่อไฟล์นี้ได้ ทั้งนี้หากกดปุ่ม หยุด อีกครั้ง จุดเล่นต่อเดิมจะหายไป"</string>
+	 <string name="msg_yes">"ใช่"</string>
+	 <string name="msg_no">"ไม่ใช่"</string>
+	 <string name="msg_noFile">"ไม่มีไฟล์มีเดียที่ใช้งานได้"</string>
+	 <string name="msg_drm_request_rental1">"DivX® สำหรับเช่านี้ได้มีการดูแล้ว "</string>
+	 <string name="msg_drm_request_rental2">"จาก "</string>
+	 <string name="msg_drm_request_rental3">ครั้ง ดำเนินการต่อหรือไม่?</string>
+	 <string name="msg_drm_not_auth_user">"อุปกรณ์ของคุณไม่ได้รับอนุญาตให้เล่นวิดีโอ DivX® ที่มีการป้องกัน"</string>
+	 <string name="msg_drm_rental_expired2">"ครั้ง หมดเวลาสำหรับการเช่า DivX® แล้ว"</string>
+	 <string name="msg_resume_remove_hint">Resume point has been removed!</string>
+	 <string name="msg_no_resume_point_hint">No resume point could be removed!</string>
+	 <string name="msg_exit">กรุณากดปุ่มย้อนกลับอีกครั้งเพื่อออกจากแอพพลิเคชั่น</string>
+	 <string name="title_jump">Would you like to jump to another title?</string>
+	 <string name="file_jump">Would you like to jump to another file?</string>
+	 <string name="msg_hint">Hint</string>
+	 <string name="msg_divx">Divx</string>
+	 <string name="msg_seek_forward_forbidden">This file can not be seek forward!</string>
+	 <string name="msg_seek_rewind_forbidden">This file can not be seek rewind!</string>
+	 <string name="msg_seek_pause_forbidden">This file can not be paused!</string>
+	 <string name="msg_seek_forbidden">This file can not be seek !</string>
+	 <string name="msg_unsupport">Unsupported file.</string>
+	 <string name="msg_unauthorised_divx_drm_version">"รุ่นของ DivX® DRM ไม่ได้รับอนุญาต"</string>
+	 
+	 <string name="usb_remove">Please insert external disk!</string>
+	 <string name="more_than_chapter_num">Please input number that is less than chapter total number! Chapter Number</string>
+	 <string name="less_than_chapter_num">Please input number that is more than 0! Chapter Number</string>
+	 <string name="input_inlegal">is illegal</string>
+	 
+	 <string name="msg_donot_switch_title">Please do not switch title, when playback is rewinding or forwarding.</string>
+	 <string name="msg_donot_switch_chapter">Please do not switch chapter, when playback is rewinding or forwarding.</string>
+	 
+	 <string name="raw">RAW</string>
+	 <string name="LPCM">LPCM</string>
+
+	 <string name="FatalErrorCode_Audio_Unknow_Format">"รูปแบบของสัญญาณเสียงไม่รองรับ"</string>
+	 <string name="FatalErrorCode_Video_Frame_Rate">"รูปแบบของสัญญาณภาพไม่รองรับ"</string>
+	 <string name="FatalErrorCode_Video_Resolution">"ความละเอียดของสัญญาณภาพไม่รองรับ"</string>
+	 <string name="Video_Play_Error">Video Player Exception, Error Code:</string>
+	 <string name="Media_Server_Die">MediaServer died, finish this activity and go to Media Selection</string>
+	 <string name="unsupport_file">This file is invalid</string>
+	 <string name="novalidfile">No valid File,Quit Music Player!</string>
+	 
+	 <!-- Guide Line -->
+	 <string name="guide_ok">OK</string>
+	 <string name="guide_enter">"ยืนยัน"</string>
+	 <string name="guide_quick">QUICK</string>
+	 <string name="guide_features">"คุณลักษณะ"</string>
+	 <string name="guide_p">P</string>
+	 <string name="guide_page">"หน้า"</string>
+	 <string name="guide_play">"เล่น"</string>
+	 <string name="guide_pre_next">ก่อนหน้า/ต่อไป</string>
+	 <string name="guide_select">"เลือก"</string>
+	 <string name="guide_arrows">"←→"</string>
+
+
+	 <string name="guide_rotate">หมุน</string>
+	 <string name="guide_zoom">ปรับภาพ</string>
+	 <string name="guide_move">เลื่อน</string>
+	 <string name="guide_back">BACK</string>
+	 <string name="guide_return">ย้อนกลับ</string>
+	 <string name="guide_zoom_out">ปรับลดขนาดภาพ</string>
+	 <string name="guide_zoom_in">ปรับขยายขนาดภาพ</string>
+	 <string name="guide_slide_show">ฉายภาพนิ่ง</string>
+	 <string name="guide_single_view">ภาพเดี่ยว</string>
+
+
+	 <string name="guide_num0">0</string>
+	 <string name="guide_num9">9</string>
+	 <string name="guide_num">-</string>
+	 <string name="guide_chapterjump">"ข้ามตอน"</string>
+	 <string name="guide_titlechange">"เปลี่ยนชื่อ"</string>
+	 
+	 <!-- Picture Size -->
+	 <string name="picture_normal">"ปกติ"</string>
+	 <string name="picture_native">"ท้องถิ่น"</string>
+	 <string name="picture_wide">"จอกว้าง"</string>
+	 <string name="picture_4_3">4:3</string>
+	 <string name="picture_pc_wide">"PC จอกว้าง"</string>
+	 <string name="picture_pc_normal">"PC ทั่วไป"</string>
+	 <string name="picture_super_live">"แสดงสด"</string>
+	 <string name="picture_cinema">"จอภาพยนตร์"</string>
+	 <string name="picture_subtitle">"คำบรรยาย"</string>
+	 <string name="picture_14_9">14:9</string>
+	 <string name="picture_dot_by_dot">"จุดต่อจุด"</string>
+	 <string name="picture_zoom">"ปรับภาพ"</string>
+	 
+	 <!-- divx setup -->
+	 <string name="divx_setup">"การปรับตั้ง"</string>
+	 <string name="divx_item_register">การลงทะเบียน DivX® VOD</string>
+	 <string name="divx_item_deregister">ยกเลิกการลงทะเบียน DivX® VOD</string>
+	 <string name="divx_title">DivX® VOD</string>
+	 
+	 <string name="divx_register_clue0">คุณต้องลงทะเบียนอุปกรณ์ก่อนจึงจะเล่นวิดีโอ</string>
+	 <string name="divx_register_clue1">รหัสการลงทะเบียน:</string>
+	 <string name="divx_register_clue2">ลงทะเบียนได้ที่</string>
+	 <string name="divx_register_clue3">DivX® ที่มีการป้องกันไว้ได้</string>
+	 <string name="divx_register_clue4">http://vod.divx.com</string>
+	 
+	 <string name="divx_confirm_clue0">อุปกรณ์ของคุณได้รับการลงทะเบียนแล้ว</string>
+	 <string name="divx_confirm_clue1">คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการลงทะเบียน?</string>
+	 <string name="divx_confirm_clue2">ใช่</string>
+	 <string name="divx_confirm_clue3">ไม่ใช่</string>
+	 
+	 <string name="divx_deregister_clue0">รหัสสำหรับยกเลิกการลงทะเบียน: </string>
+	 <string name="divx_deregister_clue1">ยกเลิกการลงทะเบียนได้ที่</string>
+	 <string name="divx_deregister_clue2">ดำเนินการลงทะเบียนต่อหรือไม่?</string>
+	 <string name="repeat_all">"ทั้งหมด"</string>
+	 
+	 <string name="maxfilenum">มีไฟล์เกินจำนวนสูงสุด ไม่สามารถจัดแสดงไฟล์บางส่วน</string>
+	
+</resources>

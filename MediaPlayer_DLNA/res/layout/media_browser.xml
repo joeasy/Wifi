@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#06284e"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/mb_photo_img"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/dlna_media_photo" />
+
+    <ImageButton
+        android:id="@+id/mb_music_img"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/mb_photo_img"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/dlna_media_music" />
+
+    <ImageButton
+        android:id="@+id/mb_videos_img"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@id/mb_photo_img"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/dlna_media_video" />
+
+</RelativeLayout>

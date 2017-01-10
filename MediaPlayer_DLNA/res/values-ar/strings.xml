@@ -1,0 +1,227 @@
+<resources>
+
+    <string name="app_name">Home Network Player</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_media_browser">RTKDMP</string>
+    <string name="title_activity_audio_browser">AudioBrowser</string>
+    
+    <string name="video">video</string>
+    <string name="audio">audio</string>
+    <string name="photo">photo</string>
+    
+    <string name="hasplayed">00:00:00</string>
+    <string name="duration">00:00:00</string>
+    
+    <string name="title_music">"موسيقى"</string>
+    <string name="title_photo">الصور</string>
+    <string name="title_movie">"أفلام الفيديو"</string>
+    <string name="title_setup">"إعداد"</string>
+    
+    <string name="subtitle1">Subtitle&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="text_color">Text Color&#160;&#160;&#160;&#160;&#160;&lt;
+    	&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_size">Text Size&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_encoding">Encoding&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+        
+    <string name="subtitle_v">Off</string>
+    <string name="text_size_v">None</string>
+    <string name="text_color_v">None</string>
+    <string name="text_encoding_v">None</string>
+    <string name="album">Album</string>
+    <string name="year">Year</string>
+    <string name="artist">Artist</string>
+    <string name="stime">00:00:00</string>
+    <string name="endtime">00:00:00</string>
+    <string name="media_browser">MEDIA BROWSER</string>
+
+    <!-- photo single view banner -->
+    <string name="device_removed_toast">Device has been removed.</string>
+    <string name="banner_slideshow">Slide Show</string>
+    <string name="banner_bg_music">"موسيقى"</string>
+    <string name="banner_repeat">اعادة</string>
+    <string name="banner_zoomin">ZoomIn</string>
+    <string name="banner_zoomout">ZoomOut</string>
+    <string name="banner_leftrotate">Left Rotate</string>
+    <string name="banner_rightrotate">Right Rotate</string>
+    <string name="banner_returnto_multi">Multi View</string>
+    <string name="txtIntervalTime">الوقت الفاصل</string>
+    <string name="QuickMenu">القائمة السريعة</string>
+    <string name="quick_menu_photo_intervalTime">الوقت الفاصل</string>
+    <string name="quick_menu_repeat">اعادة</string>
+    <string name="quick_menu_picture_mode">الصورة</string>
+    <string name="timeUnit">sec</string>
+    <string name="title_exif">Title: </string>
+    <string name="date_exif">Date: </string>
+    <string name="size_exif">الحجم: </string>
+    <string name="device_exif">جهاز: </string>
+    <string name="folder_exif">مجلد: </string>
+    <string name="decode_fail">Decode Failed.</string>
+    
+    
+    
+    <!-- QUICKMENU -->
+	 <string name="qm_interval_fast">سريع</string>
+	 <string name="qm_interval_normal">عادي</string>
+	 <string name="qm_interval_slow">بطيء</string>
+	 <string name="qm_repeat_on">تشغيل</string>
+	 <string name="qm_repeat_off">إيقاف</string>
+	 <string name="year_menuicon">year</string>
+	 <string name="day_menuicon">day</string>
+
+
+
+	 <string name="toast_not_available">غير متاح</string>
+
+    <string name="txtSound">الصوت</string>
+    <string name="txtRepeat">اعادة</string>
+    <string name="txtSleep">مؤقت النوم</string>
+    <string name="txtDevice">Device Information</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="totaltime">"المدة الإجمالية"</string>
+    <string name="usb">USB</string>
+    <string name="gapline">/</string>
+    <string name="blanktime">--:--:--</string>
+    <string name="quickmenu">القائمة السريعة</string>
+    <string name="quick_menu_tvapp">تطبيق التلفاز</string>
+    <string name="quick_menu_sysset">إعدادات النظام</string>
+    <string name="device_removed">Device has been removed.</string>
+    <string name="quick_menu_sleep">مؤقت النوم</string>
+	<string name="tv_application">تطبيق التلفاز</string>
+	<string name="sys_setting">إعدادات النظام</string>
+	<string name="quick_menu_picture">الصورة</string>
+	<string name="quick_menu_sound">الصوت</string>
+	<string name="digital_100">100</string>
+	<string name="digital_1k">1k</string>
+	<string name="digital_10k">10k</string>
+	<string name="spectrum_unit">"التردد (هرتز)"</string>
+	
+	 <!-- Confirm message -->
+	 <string name="msg_resumePlay">Resume play?</string>
+	 <string name="resumePlay_hint">"استئناف التشغيل متاح حالياً لهذا الملف. غير أنك لو ضغطت على مفتاح "إيقاف" مرة أخرى فسوف تضيع نقطة الاستئناف."</string>
+	 <string name="msg_yes">"نعم"</string>
+	 <string name="msg_no">"لا"</string>
+	 <string name="msg_noFile">"لا يوجد ملفات وسائط قابلة للتطبيق"</string>
+	 <string name="msg_drm_request_rental1">This DivX® rental has used </string>
+	 <string name="msg_drm_request_rental2">out of</string>
+	 <string name="msg_drm_request_rental3">views. Continue?</string>
+	 <string name="msg_drm_not_auth_user">Your device is not authorized to play this DivX® protected video.</string>
+	 <string name="msg_drm_rental_expired1">This DivX® rental has used</string>
+	 <string name="msg_drm_rental_expired2">views. This DivX® rental has expired.</string>
+	 <string name="msg_resume_remove_hint">Resume point has been removed!</string>
+	 <string name="msg_no_resume_point_hint">No resume point could be removed!</string>
+	 <string name="msg_exit">يرجى الضغط على زر الرجوع مرة أخرى لإنهاء التطبيق.</string>
+	 <string name="title_jump">Would you like to jump to another title?</string>
+	 <string name="file_jump">Would you like to jump to another file?</string>
+	 <string name="msg_hint">Hint</string>
+	 <string name="msg_divx">Divx</string>
+	 <string name="msg_seek_forward_forbidden">This file can not be seek forward!</string>
+	 <string name="msg_seek_rewind_forbidden">This file can not be seek rewind!</string>
+	 <string name="msg_seek_pause_forbidden">This file can not be paused!</string>
+	 <string name="msg_seek_forbidden">This file can not be seek !</string>
+	 <string name="msg_unsupport">Unsupported file.</string>
+	 <string name="msg_unauthorised_divx_drm_version">Unauthorised DivX DRM version</string>
+	 
+	 <string name="usb_remove">Please insert external disk!</string>
+	 <string name="more_than_chapter_num">Please input number that is less than chapter total number! Chapter Number</string>
+	 <string name="less_than_chapter_num">Please input number that is more than 0! Chapter Number</string>
+	 <string name="input_inlegal">is illegal</string>
+	 
+	 <string name="msg_donot_switch_title">Please do not switch title, when playback is rewinding or forwarding.</string>
+	 <string name="msg_donot_switch_chapter">Please do not switch chapter, when playback is rewinding or forwarding.</string>
+	 
+	 <string name="raw">RAW</string>
+	 <string name="LPCM">LPCM</string>
+
+	 <string name="FatalErrorCode_Audio_Unknow_Format">Audio format not supported.</string>
+	 <string name="FatalErrorCode_Video_Frame_Rate">Video Frame rate not supported</string>
+	 <string name="FatalErrorCode_Video_Resolution">"تحليل الفيديو غير مدعوم"</string>
+	 <string name="Video_Play_Error">Video Player Exception, Error Code:</string>
+	 <string name="Media_Server_Die">MediaServer died, finish this activity and go to Media Selection</string>
+	 <string name="unsupport_file">This file is invalid</string>
+	 <string name="novalidfile">No valid File,Quit Music Player!</string>
+	 
+	 <!-- Guide Line -->
+	 <string name="guide_ok">OK</string>
+	 <string name="guide_enter">"إدخال"</string>
+	 <string name="guide_quick">QUICK</string>
+	 <string name="guide_features">"ميزات"</string>
+	 <string name="guide_p">P</string>
+	 <string name="guide_page">"صفحة"</string>
+	 <string name="guide_play">"عرض"</string>
+	 <string name="guide_pre_next">السابق/ التالي</string>
+	 <string name="guide_select">"إختيار"</string>
+	 <string name="guide_arrows">"←→"</string> 
+
+	 <string name="guide_rotate">تدوير</string>
+	 <string name="guide_zoom">زوم</string>
+	 <string name="guide_move">نقل</string>
+	 <string name="guide_back">BACK</string>
+	 <string name="guide_return">عودة</string>
+	 <string name="guide_zoom_out">تصغير</string>
+	 <string name="guide_zoom_in">تكبير</string>
+	 <string name="guide_slide_show">عرض الشرائح</string>
+	 <string name="guide_single_view">مشاهدة واحدة</string>
+
+
+	 <string name="guide_num0">0</string>
+	 <string name="guide_num9">9</string>
+	 <string name="guide_num">-</string>
+	 <string name="guide_chapterjump">"قفز بين الفصول"</string>
+	 <string name="guide_titlechange">"تغيير العنوان"</string>
+	 
+	 <!-- Picture Size -->
+	 <string name="picture_normal">"عادي"</string>
+	 <string name="picture_native">"أصلي"</string>
+	 <string name="picture_wide">"عريض"</string>
+	 <string name="picture_4_3">4:3</string>
+	 <string name="picture_pc_wide">"PC عريض"</string>
+	 <string name="picture_pc_normal">"PC طبيعي"</string>
+	 <string name="picture_super_live">"فائق الحيوية"</string>
+	 <string name="picture_cinema">"سينما"</string>
+	 <string name="picture_subtitle">"ترجمة"</string>
+	 <string name="picture_14_9">14:9</string>
+	 <string name="picture_dot_by_dot">"تقطة تلو الأخرى"</string>
+	 <string name="picture_zoom">"زوم"</string>
+	 <!-- divx setup -->
+	 <string name="divx_setup">"إعداد"</string>
+	 <string name="divx_item_register">DivX® VOD Registration</string>
+	 <string name="divx_item_deregister">DivX® VOD Deregistration</string>
+	 <string name="divx_title">DivX® VOD</string>
+	 
+	 <string name="divx_register_clue0">You must register your device to play</string>
+	 <string name="divx_register_clue1">Registration code:</string>
+	 <string name="divx_register_clue2">Register at</string>
+	 <string name="divx_register_clue3">DivX® protected videos.</string>
+	 <string name="divx_register_clue4">http://vod.divx.com</string>
+	 
+	 
+	 <string name="divx_confirm_clue0">Your device is already registered.</string>
+	 <string name="divx_confirm_clue1">Are you sure you wish to deregister?</string>
+	 <string name="divx_confirm_clue2">نعم</string>
+	 <string name="divx_confirm_clue3">لا</string>
+	 
+	 <string name="divx_deregister_clue0">Deregistration code: </string>
+	 <string name="divx_deregister_clue1">Deregister at</string>
+	 <string name="divx_deregister_clue2">Continue with registration?</string>
+	 <string name="repeat_all">"الجميع"</string>
+	 
+	 <string name="maxfilenum">هناك عدد من الملفات يتجاوز العدد الأقصى. يتعذر عرض بعض الملفات.</string>
+	 
+</resources>

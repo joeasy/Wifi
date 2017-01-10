@@ -1,0 +1,197 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/dlna_list_bg"
+    tools:context=".GridViewActivity" >
+    
+    <ImageView
+            android:id="@+id/btn_menu"
+            android:layout_width="33px"
+            android:layout_height="33px"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="26px"
+            android:layout_marginTop="26px"
+            android:src="@drawable/dlna_media_menu_icon" />
+    
+	<TextView
+        android:id="@+id/topMediaIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+	    android:layout_height="30px"
+	    android:layout_marginLeft="89px"
+	    android:layout_marginTop="60px" 
+        android:text="@string/mediaplayer"
+        style="@style/MediaPlayer.Title.720p"
+        android:singleLine="true"
+	 />
+	<TextView
+        android:id="@+id/topMediaInfo"
+        android:layout_toRightOf="@+id/topMediaIcon"
+        android:layout_alignTop="@+id/topMediaIcon"
+        android:layout_marginLeft="1px"
+        android:layout_width="wrap_content"
+        android:layout_height="30px"
+        android:singleLine="true"
+        android:text="@string/title_photo"
+        style="@style/MediaPlayer.Title.720p" 
+        />
+	<ImageView
+            android:id="@+id/top_cloud"
+            android:layout_marginTop="45px"
+            android:layout_width="57px"
+            android:layout_height="43px"
+            android:layout_marginLeft="25px"
+            android:scaleType="fitXY"
+            android:src="@drawable/dlna_icon" />
+	
+	<ImageView
+        android:id="@+id/topLoadingIcon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16px"
+        android:layout_marginRight="10px"
+        android:layout_width="36px"
+        android:layout_height="36px"
+  
+        android:src="@drawable/others_icons_loading"/>
+	
+	
+	<RelativeLayout
+            android:id="@+id/lay_up"
+			android:layout_width="120px"
+            android:layout_height="40px"
+			android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"
+            android:layout_marginTop="113px"
+            >
+
+            <ImageView
+                android:id="@+id/sortup_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dnla_sorting_base_up" />
+
+            <ImageView
+                android:id="@+id/sortup"
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_alignRight="@id/sortup_bg"
+                android:layout_marginRight="5px"
+                android:layout_centerVertical="true"
+                android:src="@drawable/dnla_sorting_icon_up" />
+
+            <TextView
+                android:id="@+id/txt_sortup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/sortup_bg"
+                android:layout_centerVertical="true"
+                 android:layout_marginLeft="10px"
+                android:ellipsize="end"
+                android:shadowColor="#aaaaaa"
+                android:singleLine="true"
+                android:text="@string/sort_up"
+                android:textColor="#ffffff"
+                android:textSize="13px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_down"
+            android:layout_height="40px"
+            android:layout_width="120px"
+            android:layout_marginRight="7px"
+            android:layout_marginTop="113px"
+            android:layout_toLeftOf="@id/lay_up" >
+
+            <ImageView
+                android:id="@+id/sortdown_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dnla_sorting_base_down" />
+
+            <ImageView
+                android:id="@+id/sortdown"
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_alignRight="@id/sortdown_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5px"
+                android:src="@drawable/dnla_sorting_icon_down" />
+
+            <TextView
+                android:id="@+id/txt_sortdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/sortdown_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10px"
+                android:ellipsize="end"
+                android:shadowColor="#aaaaaa"
+                android:singleLine="true"
+                android:text="@string/sort_down"
+                android:textColor="#ffffff"
+                android:textSize="13px" />
+        </RelativeLayout>
+	
+	
+	<LinearLayout 
+	    android:id="@+id/ll_above_gv"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="35px"
+        android:layout_marginTop="106px"
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    >
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        >
+	        <ImageView
+		        android:id="@+id/imgPath"
+		        android:layout_width="27px"
+	        	android:layout_height="27px"
+		        android:layout_gravity="left"
+		        android:scaleType="fitXY"
+		        android:src="@drawable/dnla_folder_icon_s" />
+
+			<TextView
+		        android:id="@+id/topMeidiaPathInfo"
+		        android:layout_width="480px"
+		        android:layout_height="wrap_content"
+		        android:textColor="#ffffff"     
+		        android:textSize="12px" 
+		        android:ellipsize="end"
+		        android:layout_gravity="center_vertical"
+		        android:singleLine="true"/>
+
+	    </LinearLayout>   
+	</LinearLayout>
+
+	<LinearLayout 
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="138px"
+	    android:layout_alignParentLeft="true"
+		android:layout_marginLeft="5px"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    >
+	    <fragment android:name="com.rtk.dmp.GridViewFragment"
+	        android:id="@+id/gridview_fragment"
+	        android:focusable="true"
+	        android:layout_width="1208px"
+	        android:layout_height="500px" 
+	        />
+	</LinearLayout>
+
+</RelativeLayout>
+
+

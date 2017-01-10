@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@android:id/background"> 
+       <nine-patch android:src="@drawable/player_common_progress_bar_bg">
+       </nine-patch> 
+</item>
+<item android:id="@android:id/progress"> 
+   <clip> 
+       <nine-patch android:src="@drawable/player_common_progress_bar">
+       </nine-patch> 
+   </clip>
+</item>
+</layer-list>

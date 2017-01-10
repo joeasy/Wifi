@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="173.3dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+ 
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/grid_img"
+        android:layout_width="173.3dp"
+        android:layout_height="85.3dp"
+        android:focusable="false"
+        android:layout_marginTop="2.7dp"
+        android:layout_marginRight="1.3dp"
+        android:layout_marginBottom="1.3dp"
+        android:layout_marginLeft="2.7dp"
+        android:paddingLeft="2.7dp"
+        android:paddingRight="4dp"
+        android:paddingTop="2.7dp"
+        android:paddingBottom="4dp"   
+        android:scaleType="fitCenter"
+        >
+	</ImageView>
+    
+    <com.realtek.Utils.MarqueeTextView
+        android:id="@+id/grid_text"
+        android:layout_width="173.3dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid_img"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ffffff"     
+        android:textSize="13.3sp"       
+        >
+        
+    </com.realtek.Utils.MarqueeTextView>
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+	<com.rtk.dmp.PictureSurfaceView
+	    android:id="@+id/picture_focused"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+
+	>
+	</com.rtk.dmp.PictureSurfaceView>
+	<ProgressBar
+                android:id="@+id/loading"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_centerInParent="true"
+                android:max="100"
+                android:maxHeight="90px"
+                android:maxWidth="90px"
+                android:minHeight="90px"
+                android:minWidth="90px" />
+	 <ImageView
+            android:id="@+id/btn_menu"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="41px"
+            android:layout_marginTop="41px"
+            android:src="@drawable/dlna_media_menu_icon" />
+	 
+	<RelativeLayout 
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="140px"  
+        android:id="@+id/controlbar_photoplayer"
+        android:paddingLeft="41px"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:background="@drawable/guide_bar"
+	    >
+	    <RelativeLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	     	android:id="@+id/bar_buttons"
+	        >
+	        <ImageButton
+	            android:layout_centerVertical="true"
+	            android:id="@+id/play_btn"
+	            android:layout_width="100px"
+	            android:layout_height="100px"
+	            />
+	        <ImageButton
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="41px"
+	            android:layout_toRightOf="@+id/play_btn"
+	            android:id="@+id/repeat_btn"
+	            android:layout_width="100px"
+	            android:layout_height="100px"
+	            />
+	        
+	    </RelativeLayout>
+	    <RelativeLayout 
+	        android:layout_toRightOf="@+id/bar_buttons"
+	        android:layout_marginLeft="101px"
+	        android:layout_width="1005px"
+	        android:layout_height="match_parent"
+	        android:id="@+id/bar_gallery"
+	        >
+			<HorizontalScrollView 
+			    android:id="@+id/gallery"
+			    android:layout_alignParentBottom="true"
+			    android:layout_alignParentLeft="true"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		         android:scrollbars="none"
+		        >
+		        <RelativeLayout 
+		            android:id="@+id/item_gallery"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            >
+
+		                <ImageView
+			                android:id="@+id/img_content"
+			                android:layout_width="match_parent"
+			                android:layout_height="match_parent"
+			                android:layout_centerInParent="true"
+		                >
+		                </ImageView>
+
+		            
+		        </RelativeLayout>
+		    </HorizontalScrollView>
+	    </RelativeLayout>
+	    <RelativeLayout 
+	        android:layout_alignParentRight="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:id="@+id/control_info"
+	        >
+			<ImageButton
+			    android:layout_centerVertical="true"
+	            android:layout_marginRight="40px"
+	            android:layout_toLeftOf="@+id/rotate_btn"
+	            android:id="@+id/info_zoom"
+	            android:layout_width="300px"
+	            android:layout_height="50px"
+	            android:scaleType="center"
+	            />
+	        <ImageButton
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="41px"
+	            android:id="@+id/rotate_btn"
+	            android:layout_width="100px"
+	            android:layout_height="100px"
+	            />
+			
+	    </RelativeLayout>
+	</RelativeLayout>    
+	
+</RelativeLayout>

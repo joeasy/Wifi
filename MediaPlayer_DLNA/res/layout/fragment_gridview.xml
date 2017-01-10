@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1100dp"
+    android:layout_height="471dp" >    
+   
+    
+      <GridView
+        android:id="@+id/gridview"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:numColumns="4"
+        
+        android:drawSelectorOnTop="false"
+        android:fadingEdge="none"
+        android:focusable="true"
+        android:horizontalSpacing="6dp" 
+        android:verticalSpacing="8dp"
+        android:listSelector="@drawable/item_of_gridview_selector"
+        
+       />
+</AbsoluteLayout>

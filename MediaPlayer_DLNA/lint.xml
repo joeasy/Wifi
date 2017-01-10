@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src\com\rtk\dmp\AudioBrowser.java" />
+        <ignore path="src\com\rtk\dmp\MusicActivity.java" />
+        <ignore path="src\com\rtk\dmp\PhotoPlayerActivity_Play.java" />
+    </issue>
+    <issue id="ParserError" severity="ignore">
+        <ignore path="src\com\rtk\dmp\AudioBrowser.java" />
+    </issue>
+</lint>

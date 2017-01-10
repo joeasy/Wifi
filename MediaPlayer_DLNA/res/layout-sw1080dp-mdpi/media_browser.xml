@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dlna_bg"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp" >
+
+        <ImageView
+            android:id="@+id/top_cloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dlna_icon" />
+
+        <TextView
+            android:id="@+id/Top_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/mediaplayer"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/mb_photo_img"
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/dlna_menu_photo" />
+
+    <ImageButton
+        android:id="@+id/mb_music_img"
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@id/mb_photo_img"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/dlna_menu_music" />
+
+    <ImageButton
+        android:id="@+id/mb_videos_img"
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="60dp"
+        android:layout_toLeftOf="@id/mb_photo_img"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/dlna_menu_video" />
+
+</RelativeLayout>

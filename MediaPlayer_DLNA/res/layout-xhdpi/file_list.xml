@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="466.5dp"
+    android:layout_height="37.5dp"
+    android:orientation="horizontal" >
+    
+
+<ImageView android:id="@+id/icon"
+	android:layout_width="30dp"
+	android:layout_height="26.25dp" 
+	android:paddingLeft="7.5dp"
+	android:paddingTop="7.5dp"
+	/>
+
+<TextView
+    android:id="@+id/file_name"
+    android:layout_width="405.75dp"
+    android:layout_height="30dp"
+    android:layout_gravity="top"
+    android:gravity="center_vertical"
+    android:singleLine="true"
+    android:paddingTop="5.25dp"
+    android:paddingLeft="7.5dp"
+    android:shadowColor="#aaaaaa"
+    android:textColor="#0f265f"
+    android:textSize="15dp" />
+	
+</LinearLayout>

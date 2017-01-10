@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_select_photo">Select photo</string>
+    <string name="wallpaper_label">Photos</string>
+    <string name="warning_title">No Storage</string>
+    <string name="warning_message">No external storage available.\nPlease insert external disk!</string>
+    <string name="button_setWallpaper">Set wallpaper</string>
+    <string name="error_title">Failure</string>
+    <string name="error_message_loading">Photo loading is failed:\nThe image data could not be decoded successfully by Android.</string>
+    <string name="setting_wallpaper">Setting wallpaper…</string>
+    <string name="error_message_setting">Wallpaper setting is failed.</string>
+    <string name="success">Wallpaper setting: success!</string>
+    <string name="click_repeatedly">Wallpaper is setting. Please wait for a while!</string>
+    
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/video_banner"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mode_3d_setting_title"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:focusable="false"
+        android:text="@string/TITLE_3DMODE_SETTING">
+    </TextView>
+    
+    <ListView
+        android:id="@+id/mode_3d_setting_list"
+        android:layout_width="460dp"
+        android:layout_height="282dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="0.67dp"
+        android:listSelector="@drawable/selector_list_background"
+        android:scrollbars="none" />
+
+</LinearLayout>

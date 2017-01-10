@@ -1,0 +1,23 @@
+<resources>
+    <dimen name="listItemHeight">33.9975dp</dimen>
+    <dimen name="dividerHeight">3dp</dimen>
+    
+    <dimen name="landscape_listItemHeight">33.9975dp</dimen>
+    <dimen name="portrait_listItemHeight">33.9975dp</dimen>
+    <dimen name="landscape_list_horizontalSpacing">2dp</dimen>
+    <dimen name="landscape_list_verticalSpacing">2dp</dimen>
+    <dimen name="portrait_list_horizontalSpacing">2dp</dimen>
+    <dimen name="portrait_list_verticalSpacing">2dp</dimen>
+    
+    <dimen name="video_menu_width_landscape">320dp</dimen>
+    <dimen name="video_menu_height_landscape">180dp</dimen>
+    <dimen name="video_menu_listItemHeight_landscape">30dp</dimen>
+    <dimen name="video_menu_dividerHeight_landscape">0.66dp</dimen>
+    
+    <dimen name="video_menu_width_port">320dp</dimen>
+    <dimen name="video_menu_height_port">320dp</dimen>
+    <dimen name="video_menu_listItemHeight_port">30dp</dimen>
+    <dimen name="video_menu_dividerHeight_port">0.66dp</dimen>
+    
+    <dimen name="smallPadding">6dp</dimen>
+</resources>

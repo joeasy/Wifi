@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="video_menu_listItemHeight_landscape_1920x1080">45px</dimen>
+    <dimen name="video_menu_listItemHeight_landscape_1280x720">30px</dimen>
+</resources>

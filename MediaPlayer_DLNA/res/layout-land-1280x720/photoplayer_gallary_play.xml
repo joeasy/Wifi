@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+	<SurfaceView
+	    android:id="@+id/picture_focused"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+
+	>
+	</SurfaceView>
+	 <ImageView
+            android:id="@+id/btn_menu"
+            android:layout_width="33px"
+            android:layout_height="33px"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="27px"
+            android:layout_marginTop="27px"
+            android:src="@drawable/dlna_media_menu_icon" />
+	 
+	<RelativeLayout 
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="93px"  
+        android:id="@+id/controlbar_photoplayer"
+        android:paddingLeft="27px"
+        android:paddingTop="13px"
+        android:paddingBottom="13px"
+        android:background="@drawable/guide_bar"
+	    >
+	    <RelativeLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	     	android:id="@+id/bar_buttons"
+	        >
+	        <ImageButton
+	            android:layout_centerVertical="true"
+	            android:id="@+id/play_btn"
+	            android:layout_width="67px"
+	            android:layout_height="67px"
+	            />
+	        <ImageButton
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="27px"
+	            android:layout_toRightOf="@+id/play_btn"
+	            android:id="@+id/repeat_btn"
+	            android:layout_width="67px"
+	            android:layout_height="67px"
+	            android:visibility="visible"
+	            />
+	        
+	    </RelativeLayout>
+	    <RelativeLayout 
+	        android:layout_toRightOf="@+id/bar_buttons"
+	        android:layout_marginLeft="74px"
+	        android:layout_width="667px"
+	        android:layout_height="match_parent"
+	        android:id="@+id/bar_gallery"
+	        >
+			<HorizontalScrollView 
+			    android:id="@+id/gallery"
+			    android:layout_alignParentBottom="true"
+			    android:layout_alignParentLeft="true"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		         android:scrollbars="none"
+		        
+		        >
+		        <RelativeLayout 
+		            android:id="@+id/item_gallery"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            >
+		            
+		            
+		            <ImageView
+		                android:id="@+id/img_content"
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                >
+		            </ImageView>
+		        </RelativeLayout>
+		    </HorizontalScrollView>
+	    </RelativeLayout>
+	    <RelativeLayout 
+	        android:layout_alignParentRight="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:id="@+id/control_info"
+	        >
+			<ImageButton
+			   android:layout_centerVertical="true"
+	            android:layout_marginRight="27px"
+	            android:layout_toLeftOf="@+id/rotate_btn"
+	            android:id="@+id/info_zoom"
+	            android:layout_width="200px"
+	            android:layout_height="33px"
+	            android:scaleType="center"
+	            />
+	        <ImageButton
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="27px"
+	            android:id="@+id/rotate_btn"
+	            android:layout_width="67px"
+	            android:layout_height="67px"
+	            />
+			
+	    </RelativeLayout>
+	</RelativeLayout>    
+	
+</RelativeLayout>

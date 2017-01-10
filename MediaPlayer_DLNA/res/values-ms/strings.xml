@@ -1,0 +1,229 @@
+<resources>
+
+    <string name="app_name">Home Network Player</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_media_browser">RTKDMP</string>
+    <string name="title_activity_audio_browser">AudioBrowser</string>
+    
+    <string name="video">video</string>
+    <string name="audio">audio</string>
+    <string name="photo">photo</string>
+    
+    <string name="hasplayed">00:00:00</string>
+    <string name="duration">00:00:00</string>
+    
+    <string name="title_music">Muzik</string>
+    <string name="title_photo">Foto</string>
+    <string name="title_movie">Video</string>
+    <string name="title_setup">"Persediaan"</string>
+    
+    <string name="subtitle1">Subtitle&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="text_color">Text Color&#160;&#160;&#160;&#160;&#160;&lt;
+    	&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_size">Text Size&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_encoding">Encoding&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+        
+    <string name="subtitle_v">Off</string>
+    <string name="text_size_v">None</string>
+    <string name="text_color_v">None</string>
+    <string name="text_encoding_v">None</string>
+    <string name="album">Album</string>
+    <string name="year">Year</string>
+    <string name="artist">"Artis"</string>
+    <string name="stime">00:00:00</string>
+    <string name="endtime">00:00:00</string>
+    <string name="media_browser">MEDIA BROWSER</string>
+
+    <!-- photo single view banner -->
+    <string name="device_removed_toast">Device has been removed.</string>
+    <string name="banner_slideshow">Slide Show</string>
+    <string name="banner_bg_music">Muzik</string>
+    <string name="banner_repeat">Ulangan</string>
+    <string name="banner_zoomin">ZoomIn</string>
+    <string name="banner_zoomout">ZoomOut</string>
+    <string name="banner_leftrotate">Left Rotate</string>
+    <string name="banner_rightrotate">Right Rotate</string>
+    <string name="banner_returnto_multi">Multi View</string>
+    <string name="txtIntervalTime">Masa Jeda</string>
+    <string name="QuickMenu">Menu Segera</string>
+    <string name="quick_menu_photo_intervalTime">Masa Jeda</string>
+    <string name="quick_menu_repeat">Ulangan</string>
+    <string name="quick_menu_picture_mode">GAMBAR</string>
+    <string name="timeUnit">sec</string>
+    <string name="title_exif">Tajuk: </string>
+    <string name="date_exif">Tarikh: </string>
+    <string name="size_exif">Saiz: </string>
+    <string name="device_exif">Peranti: </string>
+    <string name="folder_exif">Folder: </string>
+    <string name="decode_fail">Decode Failed.</string>
+    
+    
+    
+    
+ <!-- QUICKMENU -->
+	 <string name="qm_interval_fast">Laju</string>
+	 <string name="qm_interval_normal">Biasa</string>
+	 <string name="qm_interval_slow">Perlahan</string>
+	 <string name="qm_repeat_on">Pasang</string>
+	 <string name="qm_repeat_off">Tutup</string>
+	 <string name="year_menuicon">year</string>
+	 <string name="day_menuicon">day</string>
+
+	<string name="toast_not_available">Tidak Tersedia</string>
+
+    <string name="txtSound">BUNYI</string>
+    <string name="txtRepeat">Repeat</string>
+    <string name="txtSleep">Pemasa Tidur</string>
+    <string name="txtDevice">Device Information</string>
+    <string name="title">"Tajuk"</string>
+    <string name="date">"Tarikh"</string>
+    <string name="totaltime">"Jumlah Masa"</string>
+    <string name="usb">USB</string>
+    <string name="gapline">/</string>
+    <string name="blanktime">--:--:--</string>
+    <string name="quickmenu">Menu Segera</string>
+    <string name="quick_menu_tvapp">Aplikasi TV</string>
+    <string name="quick_menu_sysset">Seting sistem</string>
+    <string name="device_removed">Device has been removed.</string>
+    <string name="quick_menu_sleep">Pemasa Tidur</string>
+	<string name="tv_application">Aplikasi TV</string>
+	<string name="sys_setting">Seting sistem</string>
+	<string name="quick_menu_picture">GAMBAR</string>
+	<string name="quick_menu_sound">BUNYI</string>
+	<string name="digital_100">100</string>
+	<string name="digital_1k">1k</string>
+	<string name="digital_10k">10k</string>
+	<string name="spectrum_unit">"Frekuensi (Hz)"</string>
+	
+	 <!-- Confirm message -->
+	 <string name="msg_resumePlay">"Sambung main?"</string>
+	 <string name="resumePlay_hint">"Menyambung main semula kini boleh didapati untuk fail ini. Tetapi, jika anda menekan kekunci Stop lagi, titik resume akan hilang."</string>
+	 <string name="msg_yes">Ada</string>
+	 <string name="msg_no">Tiada</string>
+	 <string name="msg_noFile">"Tiada fail media yang berkenaan."</string>
+	 <string name="msg_drm_request_rental1">"Sewa DivX® ini sudah dilihat"</string>
+	 <string name="msg_drm_request_rental2">daripada</string>
+	 <string name="msg_drm_request_rental3">kali. Teruskan?</string>
+	 <string name="msg_drm_not_auth_user">"Peranti anda tidak dibenarkan memainkan video terlindung DivX® ini."</string>
+	 <string name="msg_drm_rental_expired2">"kali. Sewa DivX® ini sudah luput."</string>
+	 <string name="msg_resume_remove_hint">Resume point has been removed!</string>
+	 <string name="msg_no_resume_point_hint">No resume point could be removed!</string>
+	 <string name="msg_exit">Sila tekan kekunci back kembali untuk keluar dari aplikasi.</string>
+	 <string name="title_jump">Would you like to jump to another title?</string>
+	 <string name="file_jump">Would you like to jump to another file?</string>
+	 <string name="msg_hint">Hint</string>
+	 <string name="msg_divx">Divx</string>
+	 <string name="msg_seek_forward_forbidden">This file can not be seek forward!</string>
+	 <string name="msg_seek_rewind_forbidden">This file can not be seek rewind!</string>
+	 <string name="msg_seek_pause_forbidden">This file can not be paused!</string>
+	 <string name="msg_seek_forbidden">This file can not be seek !</string>
+	 <string name="msg_unsupport">Unsupported file.</string>
+	 <string name="msg_unauthorised_divx_drm_version">Versi DRM DivX® tanpa kebenaran</string>
+	 
+	 <string name="usb_remove">Please insert external disk!</string>
+	 <string name="more_than_chapter_num">Please input number that is less than chapter total number! Chapter Number</string>
+	 <string name="less_than_chapter_num">Please input number that is more than 0! Chapter Number</string>
+	 <string name="input_inlegal">is illegal</string>
+	 
+	 <string name="msg_donot_switch_title">Please do not switch title, when playback is rewinding or forwarding.</string>
+	 <string name="msg_donot_switch_chapter">Please do not switch chapter, when playback is rewinding or forwarding.</string>
+	 
+	 <string name="raw">RAW</string>
+	 <string name="LPCM">LPCM</string>
+
+	 <string name="FatalErrorCode_Audio_Unknow_Format">"Format Audio tidak disokong"</string>
+	 <string name="FatalErrorCode_Video_Frame_Rate">"Kadar kerangka video tidak disokong"</string>
+	 <string name="FatalErrorCode_Video_Resolution">"Resolusi video tidak disokong"</string>
+	 <string name="Video_Play_Error">Video Player Exception, Error Code:</string>
+	 <string name="Media_Server_Die">MediaServer died, finish this activity and go to Media Selection</string>
+	 <string name="unsupport_file">This file is invalid</string>
+	 <string name="novalidfile">No valid File,Quit Music Player!</string>
+	 
+	 <!-- Guide Line -->
+	 <string name="guide_ok">OK</string>
+	 <string name="guide_enter">"Masuk"</string>
+	 <string name="guide_quick">QUICK</string>
+	 <string name="guide_features">"Ciri"</string>
+	 <string name="guide_p">P</string>
+	 <string name="guide_page">"Halaman"</string>
+	 <string name="guide_play">"Main"</string>
+	 <string name="guide_pre_next">Sebelum/Berikut</string>
+	 <string name="guide_select">"Pilih"</string>
+	 <string name="guide_arrows">"←→"</string>
+
+
+	 <string name="guide_rotate">Putar</string>
+	 <string name="guide_zoom">Zum</string>
+	 <string name="guide_move">Pindah</string>
+	 <string name="guide_back">BACK</string>
+	 <string name="guide_return">Kembali</string>
+	 <string name="guide_zoom_out">Zum Jauh</string>
+	 <string name="guide_zoom_in">Zum Dekat</string>
+	 <string name="guide_slide_show">Tayangan Slaid</string>
+	 <string name="guide_single_view">Lihat Tunggal</string>
+
+
+	 <string name="guide_num0">0</string>
+	 <string name="guide_num9">9</string>
+	 <string name="guide_num">-</string>
+	 <string name="guide_chapterjump">Lompat Bab</string>
+	 <string name="guide_titlechange">Perubahan Tajuk</string>
+	 
+	 <!-- Picture Size -->
+	 <string name="picture_normal">"Biasa"</string>
+	 <string name="picture_native">"Semula Jadi"</string>
+	 <string name="picture_wide">"Luas"</string>
+	 <string name="picture_4_3">4:3</string>
+	 <string name="picture_pc_wide">"PC Lebar"</string>
+	 <string name="picture_pc_normal">"PC Biasa"</string>
+	 <string name="picture_super_live">"Superhidup"</string>
+	 <string name="picture_cinema">"Panggung"</string>
+	 <string name="picture_subtitle">"Sarikata"</string>
+	 <string name="picture_14_9">14:9</string>
+	 <string name="picture_dot_by_dot">"Titik demi Titik"</string>
+	 <string name="picture_zoom">"Zum"</string>
+	 
+	 
+	  
+	 <!-- divx setup -->
+	 <string name="divx_setup">"Persediaan"</string>
+	 <string name="divx_item_register">Pendaftaran DivX® VOD</string>
+	 <string name="divx_item_deregister">Penyahdaftaran DivX® VOD</string>
+	 <string name="divx_title">DivX® VOD</string>
+	 
+	 <string name="divx_register_clue0">Anda mesti daftarkan peranti anda untuk</string>
+	 <string name="divx_register_clue1">Kod pendaftaran:</string>
+	 <string name="divx_register_clue2">Daftar di</string>
+	 <string name="divx_register_clue3">memainkan video terlindung DivX®.</string>
+	 <string name="divx_register_clue4">http://vod.divx.com</string>
+	 
+	 <string name="divx_confirm_clue0">Peranti anda sudah didaftarkan.</string>
+	 <string name="divx_confirm_clue1">Adakah anda pasti mahu membatalkan pendaftaran?</string>
+	 <string name="divx_confirm_clue2">Ada</string>
+	 <string name="divx_confirm_clue3">Tiada</string>
+	 
+	 <string name="divx_deregister_clue0">Kod pembatalan pendaftaran: </string>
+	 <string name="divx_deregister_clue1">Batalkan pendaftaran di</string>
+	 <string name="divx_deregister_clue2">Teruskan dengan pendaftaran?</string>
+	 <string name="repeat_all">"Semua"</string>
+	 
+	 <string name="maxfilenum">Terdapat lebih daripada bilangan maksimum fail. Beberapa fail tidak boleh dipaparkan.</string>
+	 
+	 
+</resources>

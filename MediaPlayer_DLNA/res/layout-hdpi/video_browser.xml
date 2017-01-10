@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videobrowser_mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_horizontal"
+    android:orientation="vertical"
+     >
+   
+ <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+      	 <ImageView
+            android:id="@+id/loadingIcon"
+            android:layout_width="54px"
+            android:layout_height="54px"
+            android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true"
+        	android:layout_marginRight="100px"
+        	android:layout_marginTop="70px"
+            android:background="#00000000"
+            android:src="@drawable/others_icons_loading" /> 
+      	 
+      	 <GridView
+            android:id="@+id/video_list"
+            android:layout_width="951px"
+            android:layout_height="match_parent"
+            android:minHeight="100px"
+			android:layout_marginLeft="90px"
+            android:layout_marginTop="199px"
+            android:layout_marginBottom="50px"
+            android:horizontalSpacing="@dimen/landscape_list_horizontalSpacing"
+            android:verticalSpacing="@dimen/landscape_list_verticalSpacing"
+            android:numColumns="1"
+            android:paddingRight="40px"
+            android:scrollbarSize="12px"
+            android:scrollbars="vertical"   
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:fastScrollEnabled="false"
+            android:scrollbarTrackVertical="@drawable/scroll_track"
+            android:scrollbarThumbVertical="@drawable/scroll_thumb"
+            android:scrollbarStyle="outsideInset"
+            android:listSelector="@drawable/videobrowser_listselecter"
+            android:longClickable="false"
+            android:focusableInTouchMode="false" 
+            />
+      	 <!-- android:scrollbarThumbVertical="@drawable/scroll_thumb"
+       		android:scrollbarTrackVertical="@drawable/scroll_track" 
+       		 android:paddingRight="6dp"-->
+	    <TextView
+	        android:id="@+id/video_list_icon_video"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50px"
+	        android:layout_marginLeft="45px"
+	        android:layout_marginTop="40px"
+	        android:singleLine="true"
+            android:text="@string/mediaplayer"
+            style="@style/MediaPlayer.Title"/>
+	    
+	    <ImageView
+	        android:id="@+id/video_list_icon_folder"
+	        android:layout_width="40px"
+	        android:layout_height="40px"
+	        android:layout_marginLeft="56px"
+	        android:layout_marginTop="123px"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/dnla_folder_icon_s" />
+	    
+	    <TextView
+	        android:id="@+id/Top_VideoText"
+	        android:layout_width="wrap_content"
+            android:layout_height="50px"
+        	android:layout_alignTop="@+id/video_list_icon_video"
+        	android:layout_marginLeft="16px"
+        	android:layout_toRightOf="@+id/video_list_icon_video"
+			android:singleLine="true"
+            android:text="@string/title_movie"
+            style="@style/MediaPlayer.Title"
+ 		/>
+	    
+	    <TextView
+	        android:id="@+id/video_path_top"
+	        android:layout_width="460px"
+	        android:layout_height="26px"
+	        android:layout_toRightOf="@id/video_list_icon_folder"
+	        android:layout_alignTop="@id/video_list_icon_folder"
+	        android:layout_marginLeft="1px"
+	        android:layout_marginTop="8px"
+	        android:ellipsize="end"
+            android:shadowColor="#aaaaaa"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="19px"
+            />
+	    <RelativeLayout
+            android:id="@+id/lay_up"
+            android:layout_width="180px"
+            android:layout_height="46px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="90px"
+            android:layout_marginTop="120px"
+            >
+            <ImageView
+                android:id="@+id/sortup_bg"
+                android:src="@drawable/dnla_sorting_base_up" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/sortup"
+                android:layout_alignRight="@id/sortup_bg"
+                android:src="@drawable/dnla_sorting_icon_up" 
+        		android:layout_centerVertical="true" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_sortup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/sortup_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15px"
+                android:ellipsize="end"
+                android:shadowColor="#aaaaaa"
+                android:singleLine="true"
+                android:text="@string/date"
+                android:textColor="#ffffff"
+                android:textSize="14px" />
+        </RelativeLayout>
+        
+	    
+	    <RelativeLayout
+            android:id="@+id/lay_down"
+            android:layout_height="46px"
+            android:layout_width="180px"
+            android:layout_toLeftOf="@id/lay_up"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="120px" >
+            <ImageView
+                android:id="@+id/sortdown_bg"
+                android:src="@drawable/dnla_sorting_base_down" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/sortdown"
+                android:layout_alignRight="@id/sortdown_bg"
+                android:src="@drawable/dnla_sorting_icon_down" 
+        		android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_sortdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/sortdown_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15px"
+                android:ellipsize="end"
+                android:shadowColor="#aaaaaa"
+                android:singleLine="true"
+                android:text="@string/name"
+                android:textColor="#ffffff"
+                android:textSize="14px" />
+        </RelativeLayout>
+	    
+		<ImageView
+        	android:id="@+id/btn_menu"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true"
+        	android:layout_marginRight="15px"
+        	android:layout_marginTop="54px"
+        	android:src="@drawable/dlna_media_menu_icon" />
+    </RelativeLayout>
+</LinearLayout>

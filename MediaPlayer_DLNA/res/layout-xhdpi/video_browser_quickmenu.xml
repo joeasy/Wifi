@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/video_menu_width_port"
+    android:layout_height="@dimen/video_menu_height_port"
+    android:background="@color/videoMenuBackground"
+    >
+    <!-- 
+    	<ImageView
+        android:id="@+id/quick_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/quick_menu_bg"/> 
+     -->
+	<!-- 
+		<TextView
+        android:id="@+id/quick_menu_title"
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:text="@string/quickmenu"
+        android:textColor="#0f265f"
+        android:textSize="20sp"
+        android:background="#FFc8d4ea"
+        android:gravity="center_vertical"     
+        />
+    
+    <ListView
+        android:id="@+id/quick_list"
+        android:layout_below="@id/quick_menu_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:listSelector="@drawable/tsb_menu_foucos"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:divider="#FF98B0D0"
+		android:dividerHeight="1dp"
+        >
+    </ListView>
+    
+    -->
+    
+    <TextView
+        android:id="@+id/quick_menu_title"
+        android:layout_height="@dimen/video_menu_listItemHeight_port"
+        android:layout_width="match_parent"
+        android:text="@string/quickmenu"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@color/videoMenuBackground"
+        android:gravity="center_vertical"     
+        />
+    
+	<ListView
+        android:id="@+id/quick_list"
+        android:layout_below="@id/quick_menu_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:listSelector="@drawable/tsb_menu_foucos"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:divider="#FF98B0D0"
+		android:dividerHeight="@dimen/video_menu_dividerHeight_port"
+		android:headerDividersEnabled="true"
+        >
+    </ListView>
+</RelativeLayout>

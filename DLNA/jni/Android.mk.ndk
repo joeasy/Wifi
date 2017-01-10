@@ -1,0 +1,13 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := dlna_test
+LOCAL_MODULE_FILENAME := libtests
+LOCAL_SRC_FILES := test.cpp
+LOCAL_SHARED_LIBRARIES := libupnp libDMP libDMR
+
+include $(BUILD_SHARED_LIBRARY)
+
+$(call import-module,libupnp)
+$(call import-module,libDMP)
+$(call import-module,libDMR)

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+     <TextView
+       android:id="@+id/detail_name"
+       android:layout_width="80px"
+       android:layout_height="@dimen/video_menu_listItemHeight_landscape"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginLeft="7px"
+       android:gravity="center_vertical|left"
+       android:text="@string/quick_menu_detail"
+       android:textColor="@color/white"
+       android:textSize="16px"
+       android:singleLine="true" />
+     
+     <RelativeLayout
+        android:id="@+id/item_right_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_name"
+        android:layout_marginLeft="40px"
+         >
+
+        <TextView
+            android:id="@+id/filename_iden"
+            android:layout_width="80px"
+            android:layout_height="@dimen/video_menu_listItemHeight_landscape"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="@string/fileName"
+            android:textColor="@color/white"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/filename_data"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_menu_listItemHeight_landscape"
+            android:layout_toRightOf="@id/filename_iden"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="16px" 
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/date_iden"
+            android:layout_width="80px"
+            android:layout_height="@dimen/video_menu_listItemHeight_landscape"
+            android:gravity="center_vertical|left"
+            android:layout_below="@id/filename_iden"
+            android:singleLine="true"
+            android:text="@string/date"
+            android:textColor="@color/white"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/date_data"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_menu_listItemHeight_landscape"
+            android:layout_toRightOf="@id/date_iden"
+            android:layout_alignTop="@id/date_iden"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="16px" 
+            android:ellipsize="end" />
+         <TextView
+            android:id="@+id/resolution_iden"
+            android:layout_width="80px"
+            android:layout_height="@dimen/video_menu_listItemHeight_landscape"
+            android:gravity="center_vertical|left"
+            android:layout_below="@id/date_iden"
+            android:singleLine="true"
+            android:text="@string/resolution"
+            android:textColor="@color/white"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/resolution_data"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_menu_listItemHeight_landscape"
+            android:layout_toRightOf="@id/resolution_iden"
+            android:layout_alignTop="@id/resolution_iden"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="16px" 
+            android:ellipsize="end" />
+        
+    </RelativeLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center">
+    <ListView android:id="@+id/showList"
+        android:divider="@null"
+        android:listSelector="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:footerDividersEnabled="true"
+        android:focusable="false"
+        android:clickable="false"
+        ></ListView>
+</RelativeLayout>

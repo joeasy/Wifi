@@ -1,0 +1,229 @@
+<resources>
+
+    <string name="app_name">Home Network Player</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_media_browser">RTKDMP</string>
+    <string name="title_activity_audio_browser">AudioBrowser</string>
+    
+    <string name="video">video</string>
+    <string name="audio">audio</string>
+    <string name="photo">photo</string>
+    
+    <string name="hasplayed">00:00:00</string>
+    <string name="duration">00:00:00</string>
+    
+    <string name="title_music">"Nhạc"</string>
+    <string name="title_photo">Hình ảnh</string>
+    <string name="title_movie">Video</string>
+    <string name="title_setup">"Cài đặt"</string>
+    
+    <string name="subtitle1">Subtitle&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="text_color">Text Color&#160;&#160;&#160;&#160;&#160;&lt;
+    	&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_size">Text Size&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+    <string name="text_encoding">Encoding&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&gt;</string>
+        
+    <string name="subtitle_v">Off</string>
+    <string name="text_size_v">None</string>
+    <string name="text_color_v">None</string>
+    <string name="text_encoding_v">None</string>
+    <string name="album">Album</string>
+    <string name="year">Year</string>
+    <string name="artist">"Nghệ sĩ"</string>
+    <string name="stime">00:00:00</string>
+    <string name="endtime">00:00:00</string>
+    <string name="media_browser">MEDIA BROWSER</string>
+
+    <!-- photo single view banner -->
+    <string name="device_removed_toast">Device has been removed.</string>
+    <string name="banner_slideshow">Slide Show</string>
+    <string name="banner_bg_music">"Nhạc"</string>
+    <string name="banner_repeat">Lặp lại</string>
+    <string name="banner_zoomin">ZoomIn</string>
+    <string name="banner_zoomout">ZoomOut</string>
+    <string name="banner_leftrotate">Left Rotate</string>
+    <string name="banner_rightrotate">Right Rotate</string>
+    <string name="banner_returnto_multi">Multi View</string>
+    <string name="txtIntervalTime">Thời gian xem ảnh</string>
+    <string name="QuickMenu">Bảng tính năng điều chỉnh nhanh</string>
+    <string name="quick_menu_photo_intervalTime">Thời gian xem ảnh</string>
+    <string name="quick_menu_repeat">Lặp lại</string>
+    <string name="quick_menu_picture_mode">HÌNH ẢNH</string>
+    <string name="timeUnit">sec</string>
+    <string name="title_exif">Tựa đề: </string>
+    <string name="date_exif">Ngày: </string>
+    <string name="size_exif">Kích thước: </string>
+    <string name="device_exif">Thiết bị: </string>
+    <string name="folder_exif">Thư mục: </string>
+    <string name="decode_fail">Decode Failed.</string>
+    <string name="year_menuicon">year</string>
+	 <string name="day_menuicon">day</string>
+	 
+    
+    
+    
+    
+
+
+ <!-- QUICKMENU -->
+	 <string name="qm_interval_fast">Nhanh</string>
+	 <string name="qm_interval_normal">Bình thường</string>
+	 <string name="qm_interval_slow">Chậm</string>
+	 <string name="qm_repeat_on">Bật</string>
+	 <string name="qm_repeat_off">Tắt</string>
+
+	 
+	 <string name="toast_not_available">Không có</string>
+    <string name="txtSound">ÂM THANH</string>
+    <string name="txtRepeat">Lặp lại</string>
+    <string name="txtSleep">Giờ hẹn tắt</string>
+    <string name="txtDevice">Device Information</string>
+    <string name="title">"Tựa đề"</string>
+    <string name="date">"Ngày"</string>
+    <string name="totaltime">"Tổng thời gian"</string>
+    <string name="usb">USB</string>
+    <string name="gapline">/</string>
+    <string name="blanktime">--:--:--</string>
+    <string name="quickmenu">Bảng tính năng điều chỉnh nhanh</string>
+    <string name="quick_menu_tvapp">Ứng dụng TV</string>
+    <string name="quick_menu_sysset">Cài đặt hệ thống</string>
+    <string name="device_removed">Device has been removed.</string>
+    <string name="quick_menu_sleep">Giờ hẹn tắt</string>
+	<string name="tv_application">Ứng dụng TV</string>
+	<string name="sys_setting">Cài đặt hệ thống</string>
+	<string name="quick_menu_picture">HÌNH ẢNH</string>
+	<string name="quick_menu_sound">ÂM THANH</string>
+	<string name="digital_100">100</string>
+	<string name="digital_1k">1k</string>
+	<string name="digital_10k">10k</string>
+	<string name="spectrum_unit">"Tần số (Hz)"</string>
+	
+	 <!-- Confirm message -->
+	 <string name="msg_resumePlay">"Tiếp tục phát?"</string>
+	 <string name="resumePlay_hint">"Tiếp tục phát lại hiện đang có sẵn cho tập tin này. Tuy nhiên, nếu bạn nhấn vào phím Dừng lần nữa, điểm tiếp tục sẽ bị mất."</string>
+	 <string name="msg_yes">"Bật"</string>
+	 <string name="msg_no">"Tắt"</string>
+	 <string name="msg_noFile">"Không có tập tin đa phương tiện tương thích."</string>
+	 <string name="msg_drm_request_rental1">"DivX® cho thuê này đã sử dụng hết"</string>
+	 <string name="msg_drm_request_rental2">"trong"</string>
+	 <string name="msg_drm_request_rental3">"lần xem. Có tiếp tục không?"</string>
+	 <string name="msg_drm_not_auth_user">"Thiết bị của bạn không được quyền để xem video DivX® đã được bảo vệ này."</string>
+	 <string name="msg_drm_rental_expired2">"lần xem. DivX® cho thuê này đã hết hạn."</string>
+	 <string name="msg_resume_remove_hint">Resume point has been removed!</string>
+	 <string name="msg_no_resume_point_hint">No resume point could be removed!</string>
+	 <string name="msg_exit">Vui lòng nhấn phím trở lại lần nữa để thoát ứng dụng.</string>
+	 <string name="title_jump">Would you like to jump to another title?</string>
+	 <string name="file_jump">Would you like to jump to another file?</string>
+	 <string name="msg_hint">Hint</string>
+	 <string name="msg_divx">Divx</string>
+	 <string name="msg_seek_forward_forbidden">This file can not be seek forward!</string>
+	 <string name="msg_seek_rewind_forbidden">This file can not be seek rewind!</string>
+	 <string name="msg_seek_pause_forbidden">This file can not be paused!</string>
+	 <string name="msg_seek_forbidden">This file can not be seek !</string>
+	 <string name="msg_unsupport">Unsupported file.</string>
+	 <string name="msg_unauthorised_divx_drm_version">"Phiên bản DivX® DRM trái phép."</string>
+	 
+	 <string name="usb_remove">Please insert external disk!</string>
+	 <string name="more_than_chapter_num">Please input number that is less than chapter total number! Chapter Number</string>
+	 <string name="less_than_chapter_num">Please input number that is more than 0! Chapter Number</string>
+	 <string name="input_inlegal">is illegal</string>
+	 
+	 <string name="msg_donot_switch_title">Please do not switch title, when playback is rewinding or forwarding.</string>
+	 <string name="msg_donot_switch_chapter">Please do not switch chapter, when playback is rewinding or forwarding.</string>
+	 
+	 <string name="raw">RAW</string>
+	 <string name="LPCM">LPCM</string>
+
+	 <string name="FatalErrorCode_Audio_Unknow_Format">"Định dạng âm thanh này không được hỗ trợ"</string>
+	 <string name="FatalErrorCode_Video_Frame_Rate">"Tốc độ khung hình video không được hỗ trợ."</string>
+	 <string name="FatalErrorCode_Video_Resolution">"Độ phân giải video không được hỗ trợ."</string>
+	 <string name="Video_Play_Error">Video Player Exception, Error Code:</string>
+	 <string name="Media_Server_Die">MediaServer died, finish this activity and go to Media Selection</string>
+	 <string name="unsupport_file">This file is invalid</string>
+	 <string name="novalidfile">No valid File,Quit Music Player!</string>
+	 
+	 <!-- Guide Line -->
+	 <string name="guide_ok">OK</string>
+	 <string name="guide_enter">"Chọn"</string>
+	 <string name="guide_quick">QUICK</string>
+	 <string name="guide_features">"Tính năng"</string>
+	 <string name="guide_p">P</string>
+	 <string name="guide_page">"Trang"</string>
+	 <string name="guide_play">"Phát"</string>
+	 <string name="guide_pre_next">Trước/Sau</string>
+	 <string name="guide_select">"Chọn"</string>
+	 <string name="guide_arrows">"←→"</string>
+
+	 <string name="guide_rotate">Xoay ảnh</string>
+	 <string name="guide_zoom">Thu / Phóng</string>
+	 <string name="guide_move">Dời</string>
+	 <string name="guide_back">BACK</string>
+	 <string name="guide_return">Trở lại</string>
+	 <string name="guide_zoom_out">Thu nhỏ</string>
+	 <string name="guide_zoom_in">Phóng to</string>
+	 <string name="guide_slide_show">Xem lướt qua</string>
+	 <string name="guide_single_view">Xem từng ảnh</string>
+
+
+	 <string name="guide_num0">0</string>
+	 <string name="guide_num9">9</string>
+	 <string name="guide_num">-</string>
+	 <string name="guide_chapterjump">"Chuyển đến đoạn"</string>
+	 <string name="guide_titlechange">"Đổi tựa đề"</string>
+	 
+	 <!-- Picture Size -->
+	 <string name="picture_normal">"Bình thường"</string>
+	 <string name="picture_native">"Nguyên bản"</string>
+	 <string name="picture_wide">"Màn ảnh rộng"</string>
+	 <string name="picture_4_3">"Tỷ lệ 4:3"</string>
+	 <string name="picture_pc_wide">"PC Rộng"</string>
+	 <string name="picture_pc_normal">"PC Thường"</string>
+	 <string name="picture_super_live">"Super Live"</string>
+	 <string name="picture_cinema">"Xem phim"</string>
+	 <string name="picture_subtitle">"Phụ đề"</string>
+	 <string name="picture_14_9">"Tỷ lệ 14:9"</string>
+	 <string name="picture_dot_by_dot">"Dot by Dot"</string>
+	 <string name="picture_zoom">"Thu / Phóng"</string>
+	 
+	  <!-- divx setup -->
+	 <string name="divx_setup">"Cài đặt"</string>
+	 <string name="divx_item_register">Đăng ký DivX® VOD</string>
+	 <string name="divx_item_deregister">Hủy đăng ký DivX® VOD</string>
+	 <string name="divx_title">DivX® VOD</string>
+	 
+	 <string name="divx_register_clue0">Bạn phải đăng ký thiết bị để phát video</string>
+	 <string name="divx_register_clue1">Mã số đăng ký:</string>
+	 <string name="divx_register_clue2">Đăng ký tại</string>
+	 <string name="divx_register_clue3">DivX® đã được bảo vệ.</string>
+	 <string name="divx_register_clue4">http://vod.divx.com</string>
+	 
+	 <string name="divx_confirm_clue0">Thiết bị của bạn đã được đăng ký.</string>
+	 <string name="divx_confirm_clue1">Bạn có chắc chắn muốn hủy đăng ký?</string>
+	 <string name="divx_confirm_clue2">Bật</string>
+	 <string name="divx_confirm_clue3">Tắt</string>
+	 
+	 <string name="divx_deregister_clue0">Mã số hủy đăng ký: </string>
+	 <string name="divx_deregister_clue1">Hủy đăng ký tại</string>
+	 <string name="divx_deregister_clue2">Có muốn tiếp tục đăng ký không?</string>
+	 <string name="repeat_all">"Tất cả"</string>
+	 
+	 
+	 <string name="maxfilenum">Có nhiều hơn số lượng tập tin tối đa. Một vài tập tin không thể được hiển thị.</string>
+	 
+</resources>
