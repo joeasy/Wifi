@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AirPlay</string>
+    
+    <string name="airplay">AirPlay</string>
+    <string name="airplay_service_name">Service Name</string>
+</resources>

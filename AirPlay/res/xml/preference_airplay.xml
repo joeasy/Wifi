@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/airplay" >
+        <SwitchPreference
+            android:disableDependentsState="true"
+            android:key="airplay_switch"
+            android:title="@string/airplay" />
+
+        <EditTextPreference
+            android:dependency="airplay_switch"
+            android:key="airplay_service_name"
+            android:title="@string/airplay_service_name" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
