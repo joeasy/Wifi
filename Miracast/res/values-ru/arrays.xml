@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_Channels_preference">
+        <item>Channel 1</item>
+        <item>Channel 6</item>
+        <item>Channel 11</item>
+    </string-array>
+    <string-array name="entriesvalue_Channels_preference">
+        <item>1</item>
+        <item>6</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="entries_Operating_Channels_preference">
+        <item>Channel 1</item>
+        <item>Channel 2</item>
+        <item>Channel 3</item>
+        <item>Channel 4</item>
+        <item>Channel 5</item>
+        <item>Channel 6</item>
+        <item>Channel 7</item>
+        <item>Channel 8</item>
+        <item>Channel 9</item>
+        <item>Channel 10</item>
+        <item>Channel 11</item>
+    </string-array>
+    <string-array name="entriesvalue_Operating_Channels_preference">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="entriesvalue_gointent_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="entries_gointent_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <integer-array name="freqs">
+        <item>2412</item>
+        <item>2417</item>
+        <item>2422</item>
+        <item>2427</item>
+        <item>2432</item>
+        <item>2437</item>
+        <item>2442</item>
+        <item>2447</item>
+        <item>2452</item>
+        <item>2457</item>
+        <item>2462</item>
+    </integer-array>
+</resources>

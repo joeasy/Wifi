@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Screen  Mirroring</string>
+    <string name="empty"></string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="label_me">Tv</string>
+    <string name="wfd_wait">Waiting for connection...</string>
+    <string name="wfd_connecting">Connexion en cours...</string>
+    <string name="wfd_connected">Connected with   </string>
+    <string name="wfd_port_error">Cannot get RTSP port</string>
+    <string name="wfd_ip_error">Cannot get target IP</string>
+    <string name="wfd_ip_get">Getting IP address...</string>
+    <string name="miracast_list">MiracastList</string>
+    <string name="miracast_setting">Setting</string>
+    
+    <!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">Enter pin <xliff:g id="number">%1$s</xliff:g> on your Wi-Fi router. The setup can take up to two minutes to complete.</string>   
+    <string name="wifi_wps_complete">WPS succeeded. Connecting to the network\u2026</string>
+    <string name="wifi_wps_failed_overlap">Another WPS session was detected. Please try again in a few minutes.</string>
+    <string name="wifi_wps_failed_wep">The wireless router security setting (WEP) is not supported</string>
+    <string name="wifi_wps_failed_tkip">The wireless router security setting (TKIP) is not supported</string>
+    <string name="wifi_wps_in_progress">WPS is already in progress and can take up to two minutes to complete</string>
+    <string name="wifi_wps_failed_generic">WPS failed. Please try again in a few minutes.</string>	
+    <string name="wifi_wps_failed">WPS failed. Please turn on wifi.</string>
+	<string name="wifi_wps_onstart_pbc">Press the Wi-Fi Protected Setup button on your router. It may be called \"WPS\" or contain this symbol:</string>
+    <string name="wifi_wps_connected">Connected to Wi-Fi network <xliff:g id="network_name">%s</xliff:g></string>
+    <string name="wifi_addr">IP address: <xliff:g id="number">%s</xliff:g></string>
+    
+    <string name="menu_settings">MiracastTest</string> 
+  	<string name="action_settings">Settings</string> 
+  	<string name="listen_channel_title">Listen channel</string> 
+	<string name="listen_channel_dialog_title">Select listen channel</string> 
+	<string name="operating_channel_title">Operating channel</string> 
+	<string name="operating_channel_dialog_title">Select operating channel</string> 
+	<string name="go_intent_title">GO intent</string> 
+	<string name="go_intent_dialog_title">Select GO intent value</string> 
+	<string name="auto_go_mode_title">Auto Go Mode</string> 
+	<string name="self_cmd">Input shell command</string> 
+	
+	<string name="ssid_title">SSID</string> 
+	<string name="psk_title">PSK</string> 
+	<string name="TV">TV</string>
+	<string name="DeviceID">Nom appareil:</string>
+	<string name="MacAddress">Adresse MAC</string>
+	<string name="Ready">Prêt pour la connexion. Pour commencer, lancez Screen Mirroring sur votre appareil.</string>
+	
+    <string name="PIN">PIN:</string>    
+	<string name="wifi_wps_pin"><xliff:g id="number">%1$s</xliff:g></string>
+	<string name="wifi_wps_success"> Configuration de sécurité réussie.</string>
+	<string name="wifi_wps_disconnect"> The connection has been terminated.</string>
+	<string name="wifi_wps_after_success">Connecté à Screen Mirroring. Veuillez patienter.</string>
+	<string name="device_terminate">The connection has been terminated.</string>
+	<string name="Ready_dialog">Wi-Fi indisponible durant le Screen Mirroring. Voulez-vous continuer ?</string>
+	<string name="connect_try">Dépassement de temps du réglage. Veuillez recommencer.</string>
+	<string name="connect_exit">Êtes-vous sûr de vouloir sortir ?</string>
+	
+	<string name="menu">Menu</string>
+	<string name="mdisplay">Information</string>
+	<string name="Connected_Device">Appareil connecté</string>
+	<string name="Resolution">Résolution</string>
+	<string name="Video_codec">Codec vidéo</string>
+	<string name="Audio_codec">Codec audio</string>
+	                 
+</resources>

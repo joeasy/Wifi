@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu"
+  >
+ 
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+		android:text="@string/mdisplay"
+         />
+       <TextView
+        android:id="@+id/mDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+        android:layout_marginTop="55dp"
+        android:text="@string/Connected_Device" />
+       
+       <TextView
+        android:id="@+id/mDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+        android:layout_marginTop="55dp"
+        />
+        <TextView
+        android:id="@+id/mResolution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+        android:layout_marginTop="105dp"
+        android:text="@string/Resolution" />
+        
+        <TextView
+        android:id="@+id/mRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+        android:layout_marginTop="105dp" 
+        />
+	  <TextView
+        android:id="@+id/mHz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+        android:layout_marginTop="105dp"
+        />
+        <TextView
+        android:id="@+id/mVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+        android:layout_marginTop="155dp"
+        android:text="@string/Video_codec" />
+        
+         <TextView
+        android:id="@+id/mVid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+        android:layout_marginTop="155dp"
+        />
+         
+         <TextView
+        android:id="@+id/mAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+        android:layout_marginTop="200dp"
+        android:text="@string/Audio_codec" />
+         
+            <TextView
+        android:id="@+id/mAud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:textColor="#102b6a"
+		android:textSize="30px"
+        android:layout_marginTop="200dp"
+ />
+
+</RelativeLayout>

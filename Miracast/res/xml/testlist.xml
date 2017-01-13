@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference 
+        android:entries="@array/entries_Channels_preference" 
+        android:title="@string/listen_channel_title" 
+        android:key="listenchannel" 
+        android:summary="" 
+        android:dialogTitle="@string/listen_channel_dialog_title" 
+        android:entryValues="@array/entriesvalue_Channels_preference" />
+    <ListPreference 
+        android:entries="@array/entries_Operating_Channels_preference" 
+        android:title="@string/operating_channel_title" 
+        android:key="operatingchannel" 
+        android:summary="" 
+        android:dialogTitle="@string/operating_channel_dialog_title" 
+        android:entryValues="@array/entriesvalue_Operating_Channels_preference" />
+    <ListPreference 
+        android:entries="@array/entries_gointent_preference" 
+        android:title="@string/go_intent_title" 
+        android:key="gointent" 
+        android:summary="" 
+        android:dialogTitle="@string/go_intent_dialog_title" 
+        android:entryValues="@array/entriesvalue_gointent_preference" />
+    <SwitchPreference 
+        android:title="@string/auto_go_mode_title" 
+        android:key="autogomode" 
+        android:summary="" />
+    <EditTextPreference 
+        android:title="@string/self_cmd" 
+        android:key="selfcmd" />
+    <PreferenceScreen
+            android:key="ssid"
+            android:title="@string/ssid_title" >
+    </PreferenceScreen>
+    <PreferenceScreen
+            android:key="psk"
+            android:title="@string/psk_title" >
+    </PreferenceScreen>
+</PreferenceScreen>

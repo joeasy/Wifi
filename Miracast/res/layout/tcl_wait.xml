@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tcl_background" >
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="577px"
+        android:gravity="center_horizontal"
+        >
+        
+        <ImageView 
+            android:id="@+id/progress_tcl"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        	       
+        />
+        
+    </LinearLayout>               
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="27px"
+        android:gravity="center_horizontal"
+        >
+        <TextView 
+        android:id="@+id/text_tcl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36px"
+        android:textColor="#FF000000"
+        />
+    </LinearLayout>    
+    
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">        
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"  
+        android:textSize="28px"
+        android:text="@string/app_name" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
+		android:layout_centerHorizontal="true"
+        android:background="@drawable/tvphone"
+        android:layout_marginTop="135dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="320dp"
+            android:layout_marginTop="65dp"
+            android:text="@string/TV" 
+			android:textColor="#102b6a"
+		    android:textSize="28px"	/>
+        <ImageView 
+            android:id="@+id/imageView"
+            android:layout_width="258dp"
+            android:layout_height="1px"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="320dp"
+            android:layout_marginTop="85dp"
+			android:background="#102b6a"
+            />
+        <TextView
+            android:id="@+id/myDevName_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+            android:layout_marginRight="320dp"
+            android:layout_marginTop="88dp"
+            android:text="@string/DeviceID" 
+			android:textColor="#102b6a"
+		    android:textSize="28px"	/>
+        <TextView
+            android:id="@+id/myDevName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+            android:layout_marginRight="320dp"
+            android:layout_marginTop="109dp"
+            android:text="@string/empty" 
+			android:textColor="#102b6a"
+		    android:textSize="28px"	/>
+        <TextView
+            android:id="@+id/mPin_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+            android:layout_marginRight="320dp"
+            android:layout_marginTop="134dp"
+            android:text="@string/PIN" 
+			android:textColor="#102b6a"
+		    android:textSize="28px"/>
+        <TextView
+            android:id="@+id/mPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+            android:layout_marginRight="320dp"
+            android:layout_marginTop="155dp"
+            android:text="@string/empty" 
+			android:textColor="#102b6a"
+		    android:textSize="36px"/>
+			
+		<TextView
+            android:id="@+id/oldPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+            android:layout_marginRight="320dp"
+            android:layout_marginTop="180dp"
+			android:text="@string/empty" 
+			android:textColor="#102b6a"
+		    android:textSize="28px"/>
+
+        <TextView
+            android:id="@+id/wps_dialog_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="225dp"
+            android:text="@string/Ready" 
+			android:textColor="#102b6a"
+		    android:textSize="28px"/>
+        <EditText
+            android:id="@+id/shell_cmd"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+             android:layout_marginTop="20dp"
+            android:ems="10" />
+        
+    </RelativeLayout>
+	
+</RelativeLayout>
