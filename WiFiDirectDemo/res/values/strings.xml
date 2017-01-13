@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">WiFi Direct</string>
+    <!--<string name="enable_p2p_button">P2P On/Off</string>-->
+    <string name="discover_peers_button">Discover</string>
+    <string name="listen_button">Listen</string>
+    <string name="group_create_button">Group Create</string>
+    <string name="group_remove_button">Group Remove</string>
+    <string name="pin_any_button">Pin Any</string>
+    <string name="pin_cancel_button">Pin Cancel</string>
+    <string name="connect_peer_button_pbc">PBC Connect</string>
+    <string name="connect_peer_button_display">Display Connect</string>
+    <string name="connect_peer_button_keypad">Keypad Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="empty"></string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery from the Action Bar</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="label_me">ME</string>
+    <string name="label_peers">PEERS</string>
+    <string name="label_group_message">GROUP MESSAGE</string>
+    
+    <string name="media_play_button">Play</string>
+    <string name="media_pause_button">Pause</string>
+    <string name="media_stop_button">Stop</string>
+    <string name="media_send_idr">IDR</string>
+    
+    <!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">Enter pin <xliff:g id="number">%1$s</xliff:g> on your device.</string>   
+    <string name="wifi_wps_complete">WPS succeeded. Connecting to the network\u2026</string>
+    <!-- 
+    <string name="wifi_wps_failed_overlap">Another WPS session was detected. Please try again in a few minutes.</string>
+    <string name="wifi_wps_failed_wep">The wireless router security setting (WEP) is not supported</string>
+    <string name="wifi_wps_failed_tkip">The wireless router security setting (TKIP) is not supported</string>
+    <string name="wifi_wps_in_progress">WPS is already in progress and can take up to two minutes to complete</string>
+    <string name="wifi_wps_failed_generic">WPS failed. Please try again in a few minutes.</string>	
+    <string name="wifi_wps_failed">WPS failed. Please turn on wifi.</string>
+	<string name="wifi_wps_onstart_pbc">Press the Wi-Fi Protected Setup button on your router. It may be called \"WPS\" or contain this symbol:</string>
+    <string name="wifi_wps_connected">Connected to Wi-Fi network <xliff:g id="network_name">%s</xliff:g></string>
+    <string name="wifi_addr">IP address: <xliff:g id="number">%s</xliff:g></string>
+    -->
+
+</resources>

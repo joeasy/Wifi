@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_height="match_parent"
+	        android:layout_width="190dip"
+	        android:orientation="horizontal">
+	        <fragment
+	            class="com.example.android.wifidirect.DeviceListFragment"
+	            android:id="@+id/frag_list"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent">
+	            <!-- Preview: layout=@layout/row_devices -->
+	        </fragment>
+	    </LinearLayout>
+        
+        <LinearLayout
+	        android:id="@+id/linearLayout3"
+	        android:layout_height="match_parent"
+	        android:layout_width="580dip"
+	        android:orientation="horizontal">
+	        <fragment
+	            class="com.example.android.wifidirect.DeviceDetailFragment"
+	            android:id="@+id/frag_detail"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent">
+	        </fragment>
+        </LinearLayout>
+        
+        <fragment
+            class="com.example.android.wifidirect.ChannelDetailFragment"
+            android:id="@+id/channel_detail"
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp">
+        </fragment>
+
+    </LinearLayout>
+</LinearLayout>
